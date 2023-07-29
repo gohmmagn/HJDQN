@@ -1,0 +1,4 @@
+from gym_lqr.envs.lqr20d import LinearQuadraticRegulator20DEnv
+from gym_lqr.envs.lqrLinear1dPDE import Linear1dPDEEnv
+from gym_lqr.envs.lqrLinear2dPDE import Linear2dPDEEnv
+from gym_lqr.envs.lqrNonLinearPDE import NonLinearPDEEnv

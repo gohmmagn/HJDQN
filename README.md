@@ -19,7 +19,7 @@ The followings packages must be installed for either local or colab setup:
 
 ## 2. Installation
 
-For colab setup just follow the instructions in the HJDQ jupyter notebook.
+For colab setup just follow the instructions in the HJDQN jupyter notebook.
 
 [controllink]: https://python-control.readthedocs.io/en/0.9.4/
 [fenicsxlink]: https://fenicsproject.org/

@@ -1,0 +1,3 @@
+/My Drive/Github/HJDQN/HJQ/outputs/LinearQuadraticRegulatorNDEnv-v0/HJDQN_2023-06-17T185139/checkpoints/fileDirectory.json
+C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\matlab\riccati_solution_matrices\ricatti_solution_dictonary.csv
+C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\matlab\riccati_solution_matrices\K_2023-06-16T213605.mat

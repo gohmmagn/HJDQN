@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+template.resources=("https\://raw.githubusercontent.com/knime-mpicbg/scripting-templates/master/knime-scripting-templates/Matlab/script-templates.txt",true);("file\:/G\:/Andere%20Computer/Mein%20Laptop/Studium_Mathematik/Masterarbeit/matlab/ricatti-solution-template.txt",false)

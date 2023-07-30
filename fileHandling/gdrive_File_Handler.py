@@ -12,7 +12,6 @@ class gdriveFileHandler():
     def __init__(self, envId):
        self.envId = envId
        self.mainDirectory = path.dirname(path.dirname(__file__))
-       self.mainVmDirectory = path.dirname(path.dirname(path.dirname(path.dirname(path.dirname(path.dirname(path.dirname(path.dirname(__file__))))))))
 
     def mergeEvallogs(self, modelName, parFileId):
         evallog_diretory_path = "outputs/{}/{}/eval_log".format(self.envId, modelName)

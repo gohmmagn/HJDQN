@@ -20,6 +20,24 @@
             <entry key="class" type="xstring" value="STRING"/>
             <entry key="value" type="xstring" value="missing"/>
         </config>
+        <config key="Variable_3">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="RowID"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="Row5"/>
+        </config>
+        <config key="Variable_4">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="LocalPathPython"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ\matlab\riccati_solution_matrices_python\ricatti_solution_dictonary.csv"/>
+        </config>
+        <config key="Variable_5">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="LocalPathMatLab"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ\matlab\riccati_solution_matrices\ricatti_solution_dictonary.csv"/>
+        </config>
     </config>
     <config key="internal_node_subsettings">
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>

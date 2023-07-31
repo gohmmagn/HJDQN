@@ -11544,3 +11544,1105 @@ java.lang.NumberFormatException: For input string: "missing"
 2023-07-31 09:52:23,843 : WARN  : main :  : Node : GroupBy : 3:71:68 : No grouping column included. Aggregate complete table.
 2023-07-31 09:52:33,044 : WARN  : main :  : Node : List Files/Folders : 3:66 : No connection available. Execute the connector node first.
 2023-07-31 09:52:33,099 : WARN  : main :  : Node : GroupBy : 3:68 : No grouping column included. Aggregate complete table.
+2023-07-31 10:39:30,661 : WARN  : main :  : Node : GroupBy : 3:68 : No grouping column included. Aggregate complete table.
+2023-07-31 10:39:39,638 : WARN  : KNIME-Worker-19-String Manipulation 3:67 :  : Node : GroupBy : 3:68 : No grouping column included. Aggregate complete table.
+2023-07-31 10:40:08,964 : WARN  : main :  : Node : List Files/Folders : 3:105 : Please specify a folder
+2023-07-31 10:40:15,425 : WARN  : main :  : Node : List Files/Folders : 3:105 : Please specify a folder
+2023-07-31 10:41:02,386 : WARN  : main :  : Node : String Manipulation (Variable) : 3:105 : No expression has been set.
+2023-07-31 10:41:23,373 : WARN  : main :  : Node : String Manipulation (Variable) : 3:105 : No expression has been set.
+2023-07-31 10:42:51,599 : WARN  : main :  : Node : GroupBy : 3:68 : No grouping column included. Aggregate complete table.
+2023-07-31 10:43:00,284 : WARN  : main :  : Node : GroupBy : 3:68 : No grouping column included. Aggregate complete table.
+2023-07-31 10:43:00,608 : WARN  : main :  : Node : GroupBy : 3:68 : No grouping column included. Aggregate complete table.
+2023-07-31 10:45:06,465 : WARN  : KNIME-Worker-28-String Manipulation 3:67 :  : Node : GroupBy : 3:68 : No grouping column included. Aggregate complete table.
+2023-07-31 10:46:40,938 : WARN  : main :  : Node : GroupBy : 3:68 : No grouping column included. Aggregate complete table.
+2023-07-31 10:46:40,940 : WARN  : main :  : Node : List Files/Folders : 3:66 : Errors overwriting node settings with flow variables: Unknown variable "outputs-folder_location"
+2023-07-31 10:46:40,941 : WARN  : main :  : Node : List Files/Folders : 3:66 : Errors overwriting node settings with flow variables: Unknown variable "outputs-folder_location"
+2023-07-31 10:46:40,997 : WARN  : main :  : Node : String Manipulation (Variable) : 3:107:105 : No such variable "mainProjectDirectoryGDrive" of type STRING
+2023-07-31 10:46:40,999 : WARN  : main :  : Node : String Manipulation (Variable) : 3:105 : No such variable "mainProjectDirectoryGDrive" of type STRING
+2023-07-31 10:46:41,002 : WARN  : main :  : Node : List Files/Folders : 3:107:66 : Errors overwriting node settings with flow variables: Unknown variable "outputs-folder_location"
+2023-07-31 10:46:41,021 : WARN  : main :  : Node : Component Input : 3:107:0:107 : Component input port 0 is not connected or doesn't have meta data
+2023-07-31 10:46:41,085 : WARN  : main :  : Node : String Manipulation (Variable) : 3:107:0:105 : No such variable "mainProjectDirectoryGDrive" of type STRING
+2023-07-31 10:46:41,087 : WARN  : main :  : Node : String Manipulation (Variable) : 3:107:0:105 : No such variable "mainProjectDirectoryGDrive" of type STRING
+2023-07-31 10:46:45,785 : WARN  : main :  : Node : List Files/Folders : 3:107:66 : Errors overwriting node settings with flow variables: Unknown variable "outputs-folder_location"
+2023-07-31 10:46:45,837 : WARN  : main :  : Node : String Manipulation (Variable) : 3:105 : No such variable "mainProjectDirectoryGDrive" of type STRING
+2023-07-31 10:46:45,839 : WARN  : main :  : Node : List Files/Folders : 3:66 : Errors overwriting node settings with flow variables: Unknown variable "outputs-folder_location"
+2023-07-31 10:46:45,843 : WARN  : main :  : Node : List Files/Folders : 3:66 : Errors overwriting node settings with flow variables: Unknown variable "outputs-folder_location"
+2023-07-31 10:47:18,156 : WARN  : main :  : Node : String Manipulation (Variable) : 3:107:105 : No such variable "mainProjectDirectoryGDrive" of type STRING
+2023-07-31 10:47:18,158 : WARN  : main :  : Node : String Manipulation (Variable) : 3:105 : No such variable "mainProjectDirectoryGDrive" of type STRING
+2023-07-31 10:47:18,165 : WARN  : main :  : Node : List Files/Folders : 3:107:66 : Errors overwriting node settings with flow variables: Unknown variable "outputs-folder_location"
+2023-07-31 10:47:18,176 : WARN  : main :  : Node : Component Input : 3:107:0:107 : Component input port 0 is not connected or doesn't have meta data
+2023-07-31 10:47:18,227 : WARN  : main :  : Node : String Manipulation (Variable) : 3:107:0:105 : No such variable "mainProjectDirectoryGDrive" of type STRING
+2023-07-31 10:47:18,228 : WARN  : main :  : Node : String Manipulation (Variable) : 3:107:0:105 : No such variable "mainProjectDirectoryGDrive" of type STRING
+2023-07-31 10:47:25,151 : WARN  : main :  : Node : Component Input : 3:107:0:107 : Component input port 0 is not connected or doesn't have meta data
+2023-07-31 10:47:37,457 : WARN  : main :  : Node : String Manipulation (Variable) : 3:107:0:105 : No such variable "mainProjectDirectoryGDrive" of type STRING
+2023-07-31 10:47:46,590 : WARN  : main :  : Node : String Manipulation (Variable) : 3:107:0:105 : No such variable "mainProjectDirectoryGDrive" of type STRING
+2023-07-31 10:47:50,370 : WARN  : main :  : Node : String Manipulation (Variable) : 3:107:0:105 : No such variable "mainProjectDirectoryGDrive" of type STRING
+2023-07-31 10:47:57,471 : WARN  : main :  : Node : List Files/Folders : 3:107:0:66 : Errors overwriting node settings with flow variables: Unknown variable "outputs-folder_location"
+2023-07-31 10:47:57,966 : WARN  : main :  : Node : List Files/Folders : 3:107:0:66 : Errors overwriting node settings with flow variables: Unknown variable "outputs-folder_location"
+2023-07-31 10:48:03,935 : WARN  : KNIME-Worker-34-Component Input 3:107:0:109 :  : Node : List Files/Folders : 3:107:0:66 : Errors overwriting node settings with flow variables: Unknown variable "outputs-folder_location"
+2023-07-31 10:48:03,985 : WARN  : KNIME-Worker-36-String to Path (Variable) 3:107:0:106 :  : Node : GroupBy : 3:107:0:68 : No grouping column included. Aggregate complete table.
+2023-07-31 10:48:05,582 : WARN  : KNIME-Worker-33-String Manipulation 3:107:0:67 :  : Node : GroupBy : 3:107:0:68 : No grouping column included. Aggregate complete table.
+2023-07-31 10:50:14,237 : ERROR : main :  : NodeContainerOutPort : Get Environment Output Folder : 3:107 : Failed to update port view.
+java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at org.knime.core.node.workflow.SubNodeContainer.getOutputSpec(SubNodeContainer.java:1901)
+	at org.knime.core.node.workflow.NodeContainerOutPort.getPortObjectSpec(NodeContainerOutPort.java:118)
+	at org.knime.core.node.workflow.NodeContainerOutPort.stateChanged(NodeContainerOutPort.java:315)
+	at org.knime.core.node.workflow.NodeContainer.notifyStateChangeListeners(NodeContainer.java:958)
+	at org.knime.core.node.workflow.SubNodeContainer.setVirtualOutputIntoOutport(SubNodeContainer.java:1594)
+	at org.knime.core.node.workflow.SubNodeContainer.onWFMStateChange(SubNodeContainer.java:598)
+	at org.knime.core.node.workflow.SubNodeContainer.lambda$3(SubNodeContainer.java:580)
+	at org.knime.core.node.workflow.NodeContainer.notifyStateChangeListeners(NodeContainer.java:958)
+	at org.knime.core.node.workflow.NodeContainer.setInternalState(NodeContainer.java:1030)
+	at org.knime.core.node.workflow.WorkflowManager.setInternalStateAfterLockRelease(WorkflowManager.java:6300)
+	at org.knime.core.node.workflow.WorkflowLock.unlock(WorkflowLock.java:166)
+	at org.knime.core.node.workflow.WorkflowLock.close(WorkflowLock.java:204)
+	at org.knime.core.node.workflow.WorkflowManager.addConnection(WorkflowManager.java:1393)
+	at org.knime.core.node.workflow.WorkflowManager.addConnection(WorkflowManager.java:1306)
+	at org.knime.core.node.workflow.WorkflowManager.changeSubNodeOutputPorts(WorkflowManager.java:2085)
+	at org.knime.workbench.editor2.commands.ReconfigureMetaNodeCommand.execute(ReconfigureMetaNodeCommand.java:184)
+	at org.eclipse.gef.commands.CommandStack.execute(CommandStack.java:222)
+	at org.knime.workbench.editor2.subnode.SetupSubnodeWizard.applyPortChanges(SetupSubnodeWizard.java:207)
+	at org.knime.workbench.editor2.subnode.SetupSubnodeWizard.performFinish(SetupSubnodeWizard.java:148)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:833)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:473)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.editor2.actions.SubNodeReconfigureAction.runOnNodes(SubNodeReconfigureAction.java:148)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.runInSWT(AbstractNodeAction.java:174)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction$1.run(AbstractNodeAction.java:160)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4785)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.run(AbstractNodeAction.java:157)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:193)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2023-07-31 10:50:14,239 : ERROR : main :  : NodeContainerOutPort : Get Environment Output Folder : 3:107 : Failed to update port view.
+java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at org.knime.core.node.workflow.SubNodeContainer.getOutputSpec(SubNodeContainer.java:1901)
+	at org.knime.core.node.workflow.NodeContainerOutPort.getPortObjectSpec(NodeContainerOutPort.java:118)
+	at org.knime.core.node.workflow.NodeContainerOutPort.stateChanged(NodeContainerOutPort.java:315)
+	at org.knime.core.node.workflow.NodeContainer.notifyStateChangeListeners(NodeContainer.java:958)
+	at org.knime.core.node.workflow.NodeContainer.setInternalState(NodeContainer.java:1030)
+	at org.knime.core.node.workflow.NodeContainer.setInternalState(NodeContainer.java:1004)
+	at org.knime.core.node.workflow.SubNodeContainer.onWFMStateChange(SubNodeContainer.java:599)
+	at org.knime.core.node.workflow.SubNodeContainer.lambda$3(SubNodeContainer.java:580)
+	at org.knime.core.node.workflow.NodeContainer.notifyStateChangeListeners(NodeContainer.java:958)
+	at org.knime.core.node.workflow.NodeContainer.setInternalState(NodeContainer.java:1030)
+	at org.knime.core.node.workflow.WorkflowManager.setInternalStateAfterLockRelease(WorkflowManager.java:6300)
+	at org.knime.core.node.workflow.WorkflowLock.unlock(WorkflowLock.java:166)
+	at org.knime.core.node.workflow.WorkflowLock.close(WorkflowLock.java:204)
+	at org.knime.core.node.workflow.WorkflowManager.addConnection(WorkflowManager.java:1393)
+	at org.knime.core.node.workflow.WorkflowManager.addConnection(WorkflowManager.java:1306)
+	at org.knime.core.node.workflow.WorkflowManager.changeSubNodeOutputPorts(WorkflowManager.java:2085)
+	at org.knime.workbench.editor2.commands.ReconfigureMetaNodeCommand.execute(ReconfigureMetaNodeCommand.java:184)
+	at org.eclipse.gef.commands.CommandStack.execute(CommandStack.java:222)
+	at org.knime.workbench.editor2.subnode.SetupSubnodeWizard.applyPortChanges(SetupSubnodeWizard.java:207)
+	at org.knime.workbench.editor2.subnode.SetupSubnodeWizard.performFinish(SetupSubnodeWizard.java:148)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:833)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:473)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.editor2.actions.SubNodeReconfigureAction.runOnNodes(SubNodeReconfigureAction.java:148)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.runInSWT(AbstractNodeAction.java:174)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction$1.run(AbstractNodeAction.java:160)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4785)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.run(AbstractNodeAction.java:157)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:193)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2023-07-31 10:50:23,902 : ERROR : KNIME-Worker-39-Component Output 3:107:0:110 :  : NodeContainerOutPort : Get Environment Output Folder : 3:107 : Failed to update port view.
+java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at org.knime.core.node.workflow.SubNodeContainer.getOutputObject(SubNodeContainer.java:1909)
+	at org.knime.core.node.workflow.NodeContainerOutPort.getPortObject(NodeContainerOutPort.java:130)
+	at org.knime.core.node.workflow.NodeContainerOutPort.stateChanged(NodeContainerOutPort.java:315)
+	at org.knime.core.node.workflow.NodeContainer.notifyStateChangeListeners(NodeContainer.java:958)
+	at org.knime.core.node.workflow.NodeContainer.setInternalState(NodeContainer.java:1030)
+	at org.knime.core.node.workflow.NodeContainer.setInternalState(NodeContainer.java:1004)
+	at org.knime.core.node.workflow.SubNodeContainer.onWFMStateChange(SubNodeContainer.java:599)
+	at org.knime.core.node.workflow.SubNodeContainer.lambda$3(SubNodeContainer.java:580)
+	at org.knime.core.node.workflow.NodeContainer.notifyStateChangeListeners(NodeContainer.java:958)
+	at org.knime.core.node.workflow.NodeContainer.setInternalState(NodeContainer.java:1030)
+	at org.knime.core.node.workflow.WorkflowManager.setInternalStateAfterLockRelease(WorkflowManager.java:6300)
+	at org.knime.core.node.workflow.WorkflowLock.unlock(WorkflowLock.java:166)
+	at org.knime.core.node.workflow.WorkflowLock.close(WorkflowLock.java:204)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:242)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-07-31 10:54:29,763 : WARN  : main :  : Node : String Manipulation (Variable) : 3:108 : No expression has been set.
+2023-07-31 10:54:47,671 : WARN  : KNIME-Worker-41-Local File System Connector 3:62 :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 10:55:21,266 : WARN  : main :  : Node : String Manipulation (Variable) : 3:108 : No expression has been set.
+2023-07-31 10:55:37,101 : WARN  : main :  : Node : String Manipulation (Variable) : 3:109 : No expression has been set.
+2023-07-31 10:55:41,065 : WARN  : main :  : Node : String Manipulation (Variable) : 3:110 : No expression has been set.
+2023-07-31 10:55:42,866 : WARN  : main :  : Node : String Manipulation (Variable) : 3:111 : No expression has been set.
+2023-07-31 10:55:47,108 : WARN  : main :  : Node : String Manipulation (Variable) : 3:109 : No expression has been set.
+2023-07-31 10:55:49,389 : WARN  : main :  : Node : String Manipulation (Variable) : 3:110 : No expression has been set.
+2023-07-31 10:55:51,362 : WARN  : main :  : Node : String Manipulation (Variable) : 3:111 : No expression has been set.
+2023-07-31 10:57:11,835 : WARN  : main :  : Node : Extract System Properties : 3:113 : Auto-configuration: extracting all available properties
+2023-07-31 10:59:14,301 : WARN  : main :  : Node : String Manipulation (Variable) : 3:108 : No expression has been set.
+2023-07-31 10:59:14,301 : WARN  : main :  : Node : String Manipulation (Variable) : 3:108 : No expression has been set.
+2023-07-31 10:59:17,145 : WARN  : main :  : Node : String Manipulation (Variable) : 3:109 : No expression has been set.
+2023-07-31 10:59:17,146 : WARN  : main :  : Node : String Manipulation (Variable) : 3:109 : No expression has been set.
+2023-07-31 10:59:19,794 : WARN  : main :  : Node : String Manipulation (Variable) : 3:110 : No expression has been set.
+2023-07-31 10:59:19,794 : WARN  : main :  : Node : String Manipulation (Variable) : 3:110 : No expression has been set.
+2023-07-31 10:59:25,956 : WARN  : main :  : Node : String Manipulation (Variable) : 3:111 : No expression has been set.
+2023-07-31 10:59:25,956 : WARN  : main :  : Node : String Manipulation (Variable) : 3:111 : No expression has been set.
+2023-07-31 11:00:53,160 : WARN  : KNIME-Worker-49-Local File System Connector 3:62 :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:02:33,664 : WARN  : KNIME-Worker-51-Local File System Connector 3:62 :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:03:01,036 : WARN  : main :  : WrappedNodeDialog : Local File System Connector : 3:62 : failed to apply settings: Working directory must be set to an absolute path.
+org.knime.core.node.InvalidSettingsException: Working directory must be set to an absolute path.
+	at org.knime.filehandling.core.fs.local.node.LocalConnectorSettings.validate(LocalConnectorSettings.java:149)
+	at org.knime.filehandling.core.fs.local.node.LocalConnectorNodeDialog.validateBeforeSaving(LocalConnectorNodeDialog.java:139)
+	at org.knime.filehandling.core.fs.local.node.LocalConnectorNodeDialog.saveSettingsTo(LocalConnectorNodeDialog.java:134)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2023-07-31 11:03:06,081 : WARN  : main :  : WrappedNodeDialog : Local File System Connector : 3:62 : failed to apply settings: Working directory must be set to an absolute path.
+org.knime.core.node.InvalidSettingsException: Working directory must be set to an absolute path.
+	at org.knime.filehandling.core.fs.local.node.LocalConnectorSettings.validate(LocalConnectorSettings.java:149)
+	at org.knime.filehandling.core.fs.local.node.LocalConnectorNodeDialog.validateBeforeSaving(LocalConnectorNodeDialog.java:139)
+	at org.knime.filehandling.core.fs.local.node.LocalConnectorNodeDialog.saveSettingsTo(LocalConnectorNodeDialog.java:134)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2023-07-31 11:03:14,280 : WARN  : main :  : WrappedNodeDialog : Local File System Connector : 3:62 : failed to apply settings: Working directory must be set to an absolute path.
+org.knime.core.node.InvalidSettingsException: Working directory must be set to an absolute path.
+	at org.knime.filehandling.core.fs.local.node.LocalConnectorSettings.validate(LocalConnectorSettings.java:149)
+	at org.knime.filehandling.core.fs.local.node.LocalConnectorNodeDialog.validateBeforeSaving(LocalConnectorNodeDialog.java:139)
+	at org.knime.filehandling.core.fs.local.node.LocalConnectorNodeDialog.saveSettingsTo(LocalConnectorNodeDialog.java:134)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2023-07-31 11:03:43,336 : WARN  : KNIME-Worker-53-Local File System Connector 3:62 :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:03:53,765 : WARN  : KNIME-Worker-54-Local File System Connector 3:62 :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:05:19,929 : WARN  : KNIME-Worker-57-Local File System Connector 3:64 :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 11:06:40,068 : WARN  : KNIME-Worker-59-Local File System Connector 3:102 :  : Node : Transfer Files (Table) : 3:74:0:71 : Errors overwriting node settings with flow variables: Unknown variable "hf5files-folder-path_location"
+2023-07-31 11:06:40,069 : WARN  : KNIME-Worker-59-Local File System Connector 3:102 :  : Node : List Files/Folders : 3:98:0:109:76 : Errors overwriting node settings with flow variables: Unknown variable "Path"
+2023-07-31 11:06:40,070 : WARN  : KNIME-Worker-59-Local File System Connector 3:102 :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 11:08:08,792 : WARN  : main :  : Node : Path to String (Variable) : 3:116:112 : No path variables selected.
+2023-07-31 11:08:08,829 : WARN  : main :  : Node : String Manipulation (Variable) : 3:116:108 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:08:08,863 : WARN  : main :  : Node : String Manipulation (Variable) : 3:116:109 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:08:08,895 : WARN  : main :  : Node : String Manipulation (Variable) : 3:116:110 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:08:08,928 : WARN  : main :  : Node : String Manipulation (Variable) : 3:116:111 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:08:08,929 : WARN  : main :  : Node : Path to String (Variable) : 3:112 : No path variables selected.
+2023-07-31 11:08:08,930 : WARN  : main :  : Node : String Manipulation (Variable) : 3:108 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:08:08,930 : WARN  : main :  : Node : String Manipulation (Variable) : 3:109 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:08:08,930 : WARN  : main :  : Node : String Manipulation (Variable) : 3:110 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:08:08,930 : WARN  : main :  : Node : String Manipulation (Variable) : 3:111 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:08:08,934 : WARN  : main :  : Node : Local File System Connector : 3:102 : Errors overwriting node settings with flow variables: Unknown variable "hf5files-folder-path"
+2023-07-31 11:08:08,935 : WARN  : main :  : Node : Local File System Connector : 3:63 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solution-matrices-matlab-folder-path"
+2023-07-31 11:08:08,935 : WARN  : main :  : Node : Local File System Connector : 3:62 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path"
+2023-07-31 11:08:08,936 : WARN  : main :  : Node : Local File System Connector : 3:64 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solution-matrices-python-matlab-folder-path"
+2023-07-31 11:08:08,936 : WARN  : main :  : Node : String Manipulation (Variable) : 3:111 : No such variable "file-separator" of type STRING
+2023-07-31 11:08:08,938 : WARN  : main :  : Node : String Manipulation (Variable) : 3:109 : No such variable "file-separator" of type STRING
+2023-07-31 11:08:08,939 : WARN  : main :  : Node : String Manipulation (Variable) : 3:108 : No such variable "file-separator" of type STRING
+2023-07-31 11:08:08,939 : WARN  : main :  : Node : String Manipulation (Variable) : 3:110 : No such variable "file-separator" of type STRING
+2023-07-31 11:09:40,582 : ERROR : main :  : NodeContainerOutPort : Get Environment Output Folder : 3:107 : Failed to update port view.
+java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at org.knime.core.node.workflow.SubNodeContainer.getOutputSpec(SubNodeContainer.java:1901)
+	at org.knime.core.node.workflow.NodeContainerOutPort.getPortObjectSpec(NodeContainerOutPort.java:118)
+	at org.knime.core.node.workflow.NodeContainerOutPort.stateChanged(NodeContainerOutPort.java:315)
+	at org.knime.core.node.workflow.NodeContainer.notifyStateChangeListeners(NodeContainer.java:958)
+	at org.knime.core.node.workflow.NodeContainer.setInternalState(NodeContainer.java:1030)
+	at org.knime.core.node.workflow.NodeContainer.setInternalState(NodeContainer.java:1004)
+	at org.knime.core.node.workflow.SingleNodeContainer.rawReset(SingleNodeContainer.java:509)
+	at org.knime.core.node.workflow.WorkflowManager.invokeResetOnSingleNodeContainer(WorkflowManager.java:5124)
+	at org.knime.core.node.workflow.WorkflowManager.resetNodeAndSuccessors(WorkflowManager.java:5251)
+	at org.knime.core.node.workflow.WorkflowManager.resetAndConfigureNodeAndSuccessors(WorkflowManager.java:5431)
+	at org.knime.core.node.workflow.WorkflowManager.resetAndConfigureNode(WorkflowManager.java:5358)
+	at org.knime.workbench.editor2.commands.CollapseMetaNodeCommand.create(CollapseMetaNodeCommand.java:220)
+	at org.knime.workbench.editor2.actions.EncapsulateSubNodeAction.runInSWT(EncapsulateSubNodeAction.java:131)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction$1.run(AbstractNodeAction.java:160)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4785)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.run(AbstractNodeAction.java:157)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:193)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2023-07-31 11:09:40,584 : WARN  : main :  : Node : List Files/Folders : 3:107:0:66 : Errors overwriting node settings with flow variables: Unknown variable "outputs-folder_location"
+2023-07-31 11:09:40,628 : WARN  : main :  : Node : List Files/Folders : 3:117:107:0:66 : Errors overwriting node settings with flow variables: Unknown variable "outputs-folder_location"
+2023-07-31 11:09:40,758 : WARN  : main :  : Node : Local File System Connector : 3:62 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path"
+2023-07-31 11:09:40,758 : WARN  : main :  : Node : Local File System Connector : 3:63 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solution-matrices-matlab-folder-path"
+2023-07-31 11:09:40,761 : WARN  : main :  : Node : Local File System Connector : 3:102 : Errors overwriting node settings with flow variables: Unknown variable "hf5files-folder-path"
+2023-07-31 11:09:40,761 : WARN  : main :  : Node : Local File System Connector : 3:64 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solution-matrices-python-matlab-folder-path"
+2023-07-31 11:09:40,778 : WARN  : main :  : Node : Component Input : 3:117:0:117 : Component input port 1 is not connected or doesn't have meta data
+2023-07-31 11:09:40,778 : WARN  : main :  : Node : Path to String (Variable) : 3:117:0:116:112 : No path variables selected.
+2023-07-31 11:09:40,810 : WARN  : main :  : Node : String Manipulation (Variable) : 3:117:0:116:108 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:09:40,849 : WARN  : main :  : Node : String Manipulation (Variable) : 3:117:0:116:109 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:09:40,911 : WARN  : main :  : Node : String Manipulation (Variable) : 3:117:0:116:110 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:09:40,943 : WARN  : main :  : Node : String Manipulation (Variable) : 3:117:0:116:111 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:09:40,944 : WARN  : main :  : Node : Path to String (Variable) : 3:117:0:116:112 : No path variables selected.
+2023-07-31 11:09:40,945 : WARN  : main :  : Node : String Manipulation (Variable) : 3:117:0:116:108 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:09:40,945 : WARN  : main :  : Node : String Manipulation (Variable) : 3:117:0:116:109 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:09:40,945 : WARN  : main :  : Node : String Manipulation (Variable) : 3:117:0:116:110 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:09:40,945 : WARN  : main :  : Node : String Manipulation (Variable) : 3:117:0:116:111 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:10:23,886 : WARN  : main :  : Node : Path to String (Variable) : 3:117:0:116:112 : No path variables selected.
+2023-07-31 11:10:23,886 : WARN  : main :  : Node : String Manipulation (Variable) : 3:117:0:116:108 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:10:23,886 : WARN  : main :  : Node : String Manipulation (Variable) : 3:117:0:116:109 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:10:23,886 : WARN  : main :  : Node : String Manipulation (Variable) : 3:117:0:116:110 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:10:23,886 : WARN  : main :  : Node : String Manipulation (Variable) : 3:117:0:116:111 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:10:28,058 : WARN  : main :  : Node : Component Input : 3:117:0:119 : Component input port 1 is not connected or doesn't have meta data
+2023-07-31 11:10:43,809 : WARN  : main :  : Node : Path to String (Variable) : 3:117:0:116:112 : No path variables selected.
+2023-07-31 11:10:43,810 : WARN  : main :  : Node : String Manipulation (Variable) : 3:117:0:116:108 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:10:43,810 : WARN  : main :  : Node : String Manipulation (Variable) : 3:117:0:116:109 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:10:43,810 : WARN  : main :  : Node : String Manipulation (Variable) : 3:117:0:116:110 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:10:43,810 : WARN  : main :  : Node : String Manipulation (Variable) : 3:117:0:116:111 : No such variable "mainProjectDirectoryLOCAL_location" of type STRING
+2023-07-31 11:12:08,117 : WARN  : KNIME-Worker-65-Component Input 3:117:0:120 :  : Node : List Files/Folders : 3:117:0:107:0:66 : Errors overwriting node settings with flow variables: Unknown variable "outputs-folder_location"
+2023-07-31 11:12:19,279 : WARN  : comm-pool-thread-1 :  : Node : Table Row To Variable : 3:117:0:121 : No column selected only the RowID will be converted
+2023-07-31 11:13:21,238 : WARN  : KNIME-Worker-66-Component Input 3:117:0:107:0:109 :  : Node : List Files/Folders : 3:117:0:107:0:66 : Errors overwriting node settings with flow variables: Unknown variable "outputs-folder_location"
+2023-07-31 11:13:21,287 : WARN  : KNIME-Worker-65-String to Path (Variable) 3:117:0:107:0:106 :  : Node : GroupBy : 3:117:0:107:0:68 : No grouping column included. Aggregate complete table.
+2023-07-31 11:13:22,623 : WARN  : KNIME-Worker-66-String Manipulation 3:117:0:107:0:67 :  : Node : GroupBy : 3:117:0:107:0:68 : No grouping column included. Aggregate complete table.
+2023-07-31 11:13:53,413 : WARN  : KNIME-Worker-67-Component Output 3:117:0:118 :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:13:53,416 : WARN  : KNIME-Worker-67-Component Output 3:117:0:118 :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 11:13:53,417 : WARN  : KNIME-Worker-67-Component Output 3:117:0:118 :  : Node : List Files/Folders : 3:98:0:109:76 : Errors overwriting node settings with flow variables: Unknown variable "Path"
+2023-07-31 11:13:53,418 : WARN  : KNIME-Worker-67-Component Output 3:117:0:118 :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 11:13:53,419 : WARN  : KNIME-Worker-67-Component Output 3:117:0:118 :  : Node : Transfer Files (Table) : 3:74:0:71 : Errors overwriting node settings with flow variables: Unknown variable "hf5files-folder-path_location"
+2023-07-31 11:15:25,331 : WARN  : KNIME-Worker-70-Component Output 3:117:0:122 :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:15:25,334 : WARN  : KNIME-Worker-70-Component Output 3:117:0:122 :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 11:15:25,335 : WARN  : KNIME-Worker-70-Component Output 3:117:0:122 :  : Node : List Files/Folders : 3:98:0:109:76 : Errors overwriting node settings with flow variables: Unknown variable "Path"
+2023-07-31 11:15:25,336 : WARN  : KNIME-Worker-70-Component Output 3:117:0:122 :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 11:15:25,337 : WARN  : KNIME-Worker-70-Component Output 3:117:0:122 :  : Node : Transfer Files (Table) : 3:74:0:71 : Errors overwriting node settings with flow variables: Unknown variable "hf5files-folder-path_location"
+2023-07-31 11:15:40,026 : WARN  : main :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:15:45,989 : WARN  : main :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 11:15:51,349 : WARN  : main :  : Node : Transfer Files (Table) : 3:74:0:71 : Errors overwriting node settings with flow variables: Unknown variable "hf5files-folder-path_location"
+2023-07-31 11:15:56,380 : WARN  : main :  : Node : List Files/Folders : 3:98:0:109:76 : Errors overwriting node settings with flow variables: Unknown variable "Path"
+2023-07-31 11:15:56,381 : WARN  : main :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 11:16:58,863 : WARN  : main :  : Node : Table Row To Variable : 3:117:0:121 : No column selected only the RowID will be converted
+2023-07-31 11:18:09,080 : WARN  : KNIME-Worker-73-Component Input 3:117:0:123 :  : Node : List Files/Folders : 3:117:0:107:0:66 : Errors overwriting node settings with flow variables: Unknown variable "outputs-folder_location"
+2023-07-31 11:18:09,081 : WARN  : KNIME-Worker-73-Component Input 3:117:0:123 :  : Node : Table Row To Variable : 3:117:0:121 : No column selected only the RowID will be converted
+2023-07-31 11:18:09,084 : WARN  : KNIME-Worker-71-Component Input 3:117:0:107:0:109 :  : Node : List Files/Folders : 3:117:0:107:0:66 : Errors overwriting node settings with flow variables: Unknown variable "outputs-folder_location"
+2023-07-31 11:18:09,087 : WARN  : KNIME-Worker-71-String to Path (Variable) 3:117:0:107:0:106 :  : Node : GroupBy : 3:117:0:107:0:68 : No grouping column included. Aggregate complete table.
+2023-07-31 11:18:10,609 : WARN  : KNIME-Worker-78-String Manipulation 3:117:0:107:0:67 :  : Node : GroupBy : 3:117:0:107:0:68 : No grouping column included. Aggregate complete table.
+2023-07-31 11:18:10,618 : WARN  : KNIME-Worker-72-File Locations 3:117 :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:18:10,620 : WARN  : KNIME-Worker-72-File Locations 3:117 :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 11:18:10,621 : WARN  : KNIME-Worker-72-File Locations 3:117 :  : Node : List Files/Folders : 3:98:0:109:76 : Errors overwriting node settings with flow variables: Unknown variable "Path"
+2023-07-31 11:18:10,622 : WARN  : KNIME-Worker-72-File Locations 3:117 :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 11:18:10,622 : WARN  : KNIME-Worker-72-File Locations 3:117 :  : Node : Transfer Files (Table) : 3:74:0:71 : Errors overwriting node settings with flow variables: Unknown variable "hf5files-folder-path_location"
+2023-07-31 11:23:58,207 : WARN  : main :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:23:58,591 : WARN  : main :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:24:00,276 : WARN  : KNIME-Worker-80-Component Input 3:65:0:73 :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:24:34,941 : WARN  : main :  : Node : String Manipulation (Variable) : 3:65:0:74 : No expression has been set.
+2023-07-31 11:25:02,488 : WARN  : main :  : Node : String Manipulation (Variable) : 3:65:0:74 : No expression has been set.
+2023-07-31 11:27:44,687 : WARN  : main :  : Node : String Manipulation (Variable) : 3:65:0:76 : No expression has been set.
+2023-07-31 11:27:51,274 : WARN  : main :  : Node : String Manipulation (Variable) : 3:65:0:76 : No expression has been set.
+2023-07-31 11:29:30,787 : WARN  : main :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:29:33,924 : WARN  : main :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:29:51,619 : WARN  : main :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:29:51,622 : WARN  : main :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:29:51,625 : WARN  : main :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:29:51,662 : WARN  : main :  : Node : String Manipulation (Variable) : 3:65:0:78:76 : No such variable "mainProjectDirectoryGDrive" of type STRING
+2023-07-31 11:29:51,697 : WARN  : main :  : Node : String Manipulation (Variable) : 3:65:0:78:74 : No such variable "mainProjectDirectoryGDrive" of type STRING
+2023-07-31 11:29:51,698 : WARN  : main :  : Node : String Manipulation (Variable) : 3:65:0:74 : No such variable "mainProjectDirectoryGDrive" of type STRING
+2023-07-31 11:29:51,699 : WARN  : main :  : Node : String Manipulation (Variable) : 3:65:0:76 : No such variable "mainProjectDirectoryGDrive" of type STRING
+2023-07-31 11:29:51,705 : WARN  : main :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:29:51,707 : WARN  : main :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:30:29,983 : WARN  : KNIME-Worker-91-String to Path (Variable) 3:65:0:78:75 :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:30:52,393 : WARN  : main :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:30:52,747 : WARN  : main :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:30:56,585 : WARN  : KNIME-Worker-92-List Files/Folders 3:65:0:5 :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:31:14,144 : WARN  : main :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:31:14,566 : WARN  : main :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:31:16,766 : WARN  : KNIME-Worker-93-List Files/Folders 3:65:0:4 :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:31:18,695 : WARN  : KNIME-Worker-94-Path to String 3:65:0:13:6 :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:31:18,703 : WARN  : KNIME-Worker-89-String Manipulation 3:65:0:13:10 :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:31:20,794 : WARN  : KNIME-Worker-88-Path to String 3:65:0:14:7 :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:31:20,803 : WARN  : KNIME-Worker-92-String Manipulation 3:65:0:14:12 :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:32:34,657 : WARN  : KNIME-Worker-95-Extract Table Dimension 3:65:0:23:17 :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:32:34,660 : WARN  : KNIME-Worker-88-Table Row To Variable 3:65:0:23:18 :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:32:34,663 : WARN  : KNIME-Worker-92-Reference Row Filter 3:65:0:23:21 :  : Node : Reference Row Filter : 3:65:0:23:21 : Node created an empty data table.
+2023-07-31 11:32:34,665 : WARN  : KNIME-Worker-93-CASE Switch End 3:65:0:23:22 :  : Node : CASE Switch End : 3:65:0:23:22 : Node created an empty data table.
+2023-07-31 11:32:34,667 : WARN  : KNIME-Worker-94-String to Path 3:65:0:23:24 :  : Node : String to Path : 3:65:0:23:24 : Node created an empty data table.
+2023-07-31 11:32:34,667 : WARN  : KNIME-Worker-94-String to Path 3:65:0:23:24 :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-matlab-folder-path_location"
+2023-07-31 11:32:48,433 : WARN  : KNIME-Worker-91-Transfer Files (Table) 3:65:0:70:60 :  : Node : Transfer Files (Table) : 3:65:0:70:60 : Node created an empty data table.
+2023-07-31 11:32:48,451 : WARN  : KNIME-Worker-92-Reference Row Filter 3:65:0:70:69 :  : Node : Reference Row Filter : 3:65:0:70:69 : Node created an empty data table.
+2023-07-31 11:34:40,369 : WARN  : KNIME-Worker-97-Component Input 3:69:0:88 :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 11:37:25,786 : WARN  : KNIME-Worker-108-Reference Row Filter 3:65:0:70:69 :  : Node : Reference Row Filter : 3:65:0:70:69 : Node created an empty data table.
+2023-07-31 11:40:17,803 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:65:0:70:68:8 : failed to apply settings: Unable to compile expression
+ERROR at line 67
+The method lastIndexOfChar(java.lang.String, char) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.LastIndexOfCharManipulator is not applicable for the arguments (java.lang.String, java.lang.String)
+  Line : 66    public java.lang.String internalEvaluate() throws Abort {
+  Line : 67  return substr(__col0,lastIndexOfChar(__col0, __variable_0)+1,length(__col0));
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 67
+The method lastIndexOfChar(java.lang.String, char) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.LastIndexOfCharManipulator is not applicable for the arguments (java.lang.String, java.lang.String)
+  Line : 66    public java.lang.String internalEvaluate() throws Abort {
+  Line : 67  return substr(__col0,lastIndexOfChar(__col0, __variable_0)+1,length(__col0));
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 67
+The method lastIndexOfChar(java.lang.String, char) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.LastIndexOfCharManipulator is not applicable for the arguments (java.lang.String, java.lang.String)
+  Line : 66    public java.lang.String internalEvaluate() throws Abort {
+  Line : 67  return substr(__col0,lastIndexOfChar(__col0, __variable_0)+1,length(__col0));
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2023-07-31 11:40:29,502 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:65:0:70:68:8 : failed to apply settings: Unable to compile expression
+ERROR at line 67
+The method lastIndexOfChar(java.lang.String, char) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.LastIndexOfCharManipulator is not applicable for the arguments (java.lang.String, java.lang.String)
+  Line : 66    public java.lang.String internalEvaluate() throws Abort {
+  Line : 67  return substr(__col0,lastIndexOfChar(__col0, __variable_0)+1,length(__col0));
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 67
+The method lastIndexOfChar(java.lang.String, char) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.LastIndexOfCharManipulator is not applicable for the arguments (java.lang.String, java.lang.String)
+  Line : 66    public java.lang.String internalEvaluate() throws Abort {
+  Line : 67  return substr(__col0,lastIndexOfChar(__col0, __variable_0)+1,length(__col0));
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 67
+The method lastIndexOfChar(java.lang.String, char) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.LastIndexOfCharManipulator is not applicable for the arguments (java.lang.String, java.lang.String)
+  Line : 66    public java.lang.String internalEvaluate() throws Abort {
+  Line : 67  return substr(__col0,lastIndexOfChar(__col0, __variable_0)+1,length(__col0));
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2023-07-31 11:42:38,724 : WARN  : KNIME-Worker-115-Reference Row Filter 3:65:0:70:69 :  : Node : Reference Row Filter : 3:65:0:70:69 : Node created an empty data table.
+2023-07-31 11:44:30,128 : WARN  : main :  : Node : List Files/Folders : 3:65:0:5 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solutions-folder-gdrive_location"
+2023-07-31 11:44:30,128 : WARN  : main :  : Node : List Files/Folders : 3:65:0:4 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-folder-gdrive_location"
+2023-07-31 11:44:58,729 : WARN  : main :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 11:44:59,044 : WARN  : main :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 11:45:00,265 : WARN  : KNIME-Worker-120-Component Input 3:69:0:88 :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 11:49:37,884 : WARN  : main :  : Node : String Manipulation (Variable) : 3:69:0:78:76 : No such variable "mainProjectDirectoryGDrive" of type STRING
+2023-07-31 11:50:04,516 : WARN  : main :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 11:50:07,028 : WARN  : main :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 11:50:15,810 : WARN  : main :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 11:50:27,150 : WARN  : main :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 11:50:27,515 : WARN  : main :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 11:53:01,084 : WARN  : main :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 11:53:19,100 : WARN  : main :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 11:53:19,485 : WARN  : main :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 11:53:26,444 : WARN  : KNIME-Worker-138-Table Row To Variable 3:69:0:82:79 :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 11:53:26,449 : WARN  : KNIME-Worker-139-String Manipulation 3:69:0:82:77 :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 11:53:26,451 : WARN  : KNIME-Worker-132-Reference Row Filter 3:69:0:82:73 :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 11:55:40,811 : WARN  : KNIME-Worker-144-Table Row To Variable 3:69:0:95:91 :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 11:55:40,813 : WARN  : KNIME-Worker-145-String to Path (Variable) 3:69:0:95:92 :  : Node : Transfer Files : 3:69:0:95:90 : Only the path (C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ\matlab\riccati_solution_matrices\ricatti_solution_dictonary.csv) of the flow variable is used.
+2023-07-31 11:56:04,896 : WARN  : KNIME-Worker-147-Python Script 3:69:0:95:85 :  : Node : Python Script : 3:69:0:95:85 : Node created an empty data table.
+2023-07-31 11:56:04,900 : WARN  : KNIME-Worker-147-Python Script 3:69:0:95:85 :  : Node : Transfer Files (Table) : 3:69:0:67 : The selected column 'LocalPathPython' seems to contain a path referencing a  different file system than the one at the input port. Such paths will be resolved against the file system at the input port (local).
+2023-07-31 11:56:04,907 : WARN  : KNIME-Worker-141-String to Path 3:69:0:95:94 :  : Node : Transfer Files (Table) : 3:69:0:67 : The selected column 'LocalPathPython' seems to contain a path referencing a  different file system than the one at the input port. Such paths will be resolved against the file system at the input port (local).
+2023-07-31 11:56:50,849 : WARN  : main :  : Node : Transfer Files (Table) : 3:69:0:67 : The selected column 'LocalPathPython' seems to contain a path referencing a  different file system than the one at the input port. Such paths will be resolved against the file system at the input port (local).
+2023-07-31 11:56:51,258 : WARN  : main :  : Node : Transfer Files (Table) : 3:69:0:67 : The selected column 'LocalPathPython' seems to contain a path referencing a  different file system than the one at the input port. Such paths will be resolved against the file system at the input port (local).
+2023-07-31 11:56:59,486 : WARN  : KNIME-Worker-142-Transfer Files (Table) 3:69:0:71 :  : Node : Transfer Files (Table) : 3:69:0:67 : The selected column 'LocalPathPython' seems to contain a path referencing a  different file system than the one at the input port. Such paths will be resolved against the file system at the input port (local).
+2023-07-31 11:59:08,384 : WARN  : main :  : Node : String Manipulation (Variable) : 3:69:0:96 : No expression has been set.
+2023-07-31 11:59:12,669 : WARN  : main :  : Node : String Manipulation (Variable) : 3:69:0:96 : No expression has been set.
+2023-07-31 11:59:18,642 : WARN  : main :  : Node : String Manipulation (Variable) : 3:69:0:96 : No expression has been set.
+2023-07-31 11:59:24,258 : WARN  : main :  : Node : String Manipulation (Variable) : 3:69:0:78:76 : No expression has been set.
+2023-07-31 11:59:37,581 : WARN  : main :  : Node : String Manipulation (Variable) : 3:69:0:78:76 : No expression has been set.
+2023-07-31 12:01:37,753 : WARN  : main :  : Node : List Files/Folders : 3:69:0:82:72 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solutions-folder-gdrive_location"
+2023-07-31 12:01:37,754 : WARN  : main :  : Node : List Files/Folders : 3:69:0:82:68 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solution-matrices-matlab-folder-path_location"
+2023-07-31 12:01:38,236 : WARN  : main :  : Node : List Files/Folders : 3:69:0:82:72 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solutions-folder-gdrive_location"
+2023-07-31 12:01:38,236 : WARN  : main :  : Node : List Files/Folders : 3:69:0:82:68 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solution-matrices-matlab-folder-path_location"
+2023-07-31 12:01:52,982 : WARN  : main :  : Node : List Files/Folders : 3:69:0:82:72 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solutions-folder-gdrive_location"
+2023-07-31 12:01:52,982 : WARN  : main :  : Node : List Files/Folders : 3:69:0:82:68 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solution-matrices-matlab-folder-path_location"
+2023-07-31 12:01:53,449 : WARN  : main :  : Node : List Files/Folders : 3:69:0:82:72 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solutions-folder-gdrive_location"
+2023-07-31 12:01:53,450 : WARN  : main :  : Node : List Files/Folders : 3:69:0:82:68 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solution-matrices-matlab-folder-path_location"
+2023-07-31 12:01:56,667 : WARN  : KNIME-Worker-151-String to Path (Variable) 3:69:0:78:75 :  : Node : List Files/Folders : 3:69:0:82:68 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solution-matrices-matlab-folder-path_location"
+2023-07-31 12:01:59,625 : WARN  : KNIME-Worker-152-String to Path (Variable) 3:69:0:82:82 :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 12:01:59,634 : WARN  : KNIME-Worker-150-Table Row To Variable 3:69:0:82:79 :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 12:01:59,637 : WARN  : KNIME-Worker-151-String Manipulation 3:69:0:82:77 :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 12:02:01,638 : WARN  : KNIME-Worker-156-Reference Row Filter 3:69:0:82:73 :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 12:02:03,615 : WARN  : KNIME-Worker-152-Table Row To Variable 3:69:0:95:91 :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 12:02:03,616 : WARN  : KNIME-Worker-154-String to Path (Variable) 3:69:0:95:92 :  : Node : Transfer Files : 3:69:0:95:90 : Only the path (C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ\matlab\riccati_solution_matrices\ricatti_solution_dictonary.csv) of the flow variable is used.
+2023-07-31 12:02:04,342 : WARN  : KNIME-Worker-156-Python Script 3:69:0:95:85 :  : Node : Python Script : 3:69:0:95:85 : Node created an empty data table.
+2023-07-31 12:02:04,343 : WARN  : KNIME-Worker-156-Python Script 3:69:0:95:85 :  : Node : Transfer Files (Table) : 3:69:0:67 : The selected column 'LocalPathPython' seems to contain a path referencing a  different file system than the one at the input port. Such paths will be resolved against the file system at the input port (local).
+2023-07-31 12:02:04,345 : WARN  : KNIME-Worker-151-String to Path 3:69:0:95:94 :  : Node : Transfer Files (Table) : 3:69:0:67 : The selected column 'LocalPathPython' seems to contain a path referencing a  different file system than the one at the input port. Such paths will be resolved against the file system at the input port (local).
+2023-07-31 12:02:05,858 : WARN  : KNIME-Worker-149-Transfer Files (Table) 3:69:0:71 :  : Node : Transfer Files (Table) : 3:69:0:67 : The selected column 'LocalPathPython' seems to contain a path referencing a  different file system than the one at the input port. Such paths will be resolved against the file system at the input port (local).
+2023-07-31 12:02:34,721 : WARN  : main :  : Node : List Files/Folders : 3:69:0:82:68 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solution-matrices-matlab-folder-path_location"
+2023-07-31 12:02:35,000 : WARN  : main :  : Node : List Files/Folders : 3:69:0:82:68 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solution-matrices-matlab-folder-path_location"
+2023-07-31 12:02:39,926 : WARN  : KNIME-Worker-152-String to Path (Variable) 3:69:0:82:82 :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 12:02:39,934 : WARN  : KNIME-Worker-151-Table Row To Variable 3:69:0:82:79 :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 12:02:39,937 : WARN  : KNIME-Worker-149-String Manipulation 3:69:0:82:77 :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 12:02:39,939 : WARN  : KNIME-Worker-153-Reference Row Filter 3:69:0:82:73 :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 12:02:54,254 : WARN  : main :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 12:02:54,610 : WARN  : main :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 12:02:56,448 : WARN  : KNIME-Worker-151-Table Row To Variable 3:69:0:95:91 :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 12:02:56,449 : WARN  : KNIME-Worker-149-String to Path (Variable) 3:69:0:95:92 :  : Node : Transfer Files : 3:69:0:95:90 : Only the path (C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ\matlab\riccati_solution_matrices\ricatti_solution_dictonary.csv) of the flow variable is used.
+2023-07-31 12:02:56,830 : WARN  : KNIME-Worker-154-Python Script 3:69:0:95:85 :  : Node : Python Script : 3:69:0:95:85 : Node created an empty data table.
+2023-07-31 12:02:56,831 : WARN  : KNIME-Worker-154-Python Script 3:69:0:95:85 :  : Node : Transfer Files (Table) : 3:69:0:67 : The selected column 'LocalPathPython' seems to contain a path referencing a  different file system than the one at the input port. Such paths will be resolved against the file system at the input port (local).
+2023-07-31 12:02:56,834 : WARN  : KNIME-Worker-155-String to Path 3:69:0:95:94 :  : Node : Transfer Files (Table) : 3:69:0:67 : The selected column 'LocalPathPython' seems to contain a path referencing a  different file system than the one at the input port. Such paths will be resolved against the file system at the input port (local).
+2023-07-31 12:03:18,417 : WARN  : main :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 12:03:18,691 : WARN  : main :  : Node : Transfer Files : 3:69:0:95:90 : Errors overwriting node settings with flow variables: Unknown variable "LocalPathMatLab_location"
+2023-07-31 12:03:21,738 : WARN  : KNIME-Worker-150-String to Path (Variable) 3:69:0:95:92 :  : Node : Transfer Files : 3:69:0:95:90 : Only the path (C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ\matlab\riccati_solution_matrices\ricatti_solution_dictonary.csv) of the flow variable is used.
+2023-07-31 12:03:22,117 : WARN  : KNIME-Worker-149-Python Script 3:69:0:95:85 :  : Node : Python Script : 3:69:0:95:85 : Node created an empty data table.
+2023-07-31 12:03:22,118 : WARN  : KNIME-Worker-149-Python Script 3:69:0:95:85 :  : Node : Transfer Files (Table) : 3:69:0:67 : The selected column 'LocalPathPython' seems to contain a path referencing a  different file system than the one at the input port. Such paths will be resolved against the file system at the input port (local).
+2023-07-31 12:03:22,121 : WARN  : KNIME-Worker-154-String to Path 3:69:0:95:94 :  : Node : Transfer Files (Table) : 3:69:0:67 : The selected column 'LocalPathPython' seems to contain a path referencing a  different file system than the one at the input port. Such paths will be resolved against the file system at the input port (local).
+2023-07-31 12:03:35,131 : WARN  : main :  : Node : Transfer Files (Table) : 3:69:0:67 : The selected column 'LocalPathPython' seems to contain a path referencing a  different file system than the one at the input port. Such paths will be resolved against the file system at the input port (local).
+2023-07-31 12:03:35,524 : WARN  : main :  : Node : Transfer Files (Table) : 3:69:0:67 : The selected column 'LocalPathPython' seems to contain a path referencing a  different file system than the one at the input port. Such paths will be resolved against the file system at the input port (local).
+2023-07-31 12:04:03,264 : WARN  : main :  : Node : List Files/Folders : 3:69:0:82:72 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solutions-folder-gdrive_location"
+2023-07-31 12:04:03,264 : WARN  : main :  : Node : List Files/Folders : 3:69:0:82:68 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solution-matrices-matlab-folder-path_location"
+2023-07-31 12:05:12,647 : WARN  : main :  : Node : String Manipulation (Variable) : 3:74:0:78:76 : No such variable "mainProjectDirectoryGDrive" of type STRING
+2023-07-31 12:05:12,679 : WARN  : main :  : Node : String Manipulation (Variable) : 3:74:0:78:74 : No such variable "mainProjectDirectoryGDrive" of type STRING
+2023-07-31 12:05:15,036 : WARN  : KNIME-Worker-159-Component Input 3:74:0:74 :  : Node : String Manipulation (Variable) : 3:74:0:78:76 : No such variable "mainProjectDirectoryGDrive" of type STRING
+2023-07-31 12:05:15,036 : WARN  : KNIME-Worker-159-Component Input 3:74:0:74 :  : Node : String Manipulation (Variable) : 3:74:0:78:74 : No such variable "mainProjectDirectoryGDrive" of type STRING
+2023-07-31 12:05:15,037 : WARN  : KNIME-Worker-159-Component Input 3:74:0:74 :  : Node : Transfer Files (Table) : 3:74:0:71 : Errors overwriting node settings with flow variables: Unknown variable "hf5files-folder-path_location"
+2023-07-31 12:05:26,876 : WARN  : main :  : Node : Transfer Files (Table) : 3:74:0:71 : Errors overwriting node settings with flow variables: Unknown variable "hf5files-folder-path_location"
+2023-07-31 12:05:27,192 : WARN  : main :  : Node : Transfer Files (Table) : 3:74:0:71 : Errors overwriting node settings with flow variables: Unknown variable "hf5files-folder-path_location"
+2023-07-31 12:05:28,536 : WARN  : KNIME-Worker-161-Component Input 3:74:0:74 :  : Node : Transfer Files (Table) : 3:74:0:71 : Errors overwriting node settings with flow variables: Unknown variable "hf5files-folder-path_location"
+2023-07-31 12:05:38,988 : WARN  : main :  : Node : String Manipulation (Variable) : 3:74:0:78:76 : No such variable "mainProjectDirectoryGDrive" of type STRING
+2023-07-31 12:05:57,957 : WARN  : main :  : Node : Transfer Files (Table) : 3:74:0:71 : Errors overwriting node settings with flow variables: Unknown variable "hf5files-folder-path_location"
+2023-07-31 12:06:16,737 : WARN  : main :  : Node : Transfer Files (Table) : 3:74:0:71 : Errors overwriting node settings with flow variables: Unknown variable "hf5files-folder-path_location"
+2023-07-31 12:06:17,127 : WARN  : main :  : Node : Transfer Files (Table) : 3:74:0:71 : Errors overwriting node settings with flow variables: Unknown variable "hf5files-folder-path_location"
+2023-07-31 12:07:11,048 : WARN  : main :  : Node : List Files/Folders : 3:74:0:70 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solutions-folder-gdrive_location"
+2023-07-31 12:07:11,439 : WARN  : main :  : Node : List Files/Folders : 3:74:0:70 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solutions-folder-gdrive_location"
+2023-07-31 12:07:13,466 : WARN  : KNIME-Worker-166-String to Path (Variable) 3:74:0:78:75 :  : Node : List Files/Folders : 3:74:0:70 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solutions-folder-gdrive_location"
+2023-07-31 12:07:16,073 : WARN  : main :  : Node : List Files/Folders : 3:74:0:70 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solutions-folder-gdrive_location"
+2023-07-31 12:07:16,416 : WARN  : main :  : Node : List Files/Folders : 3:74:0:70 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solutions-folder-gdrive_location"
+2023-07-31 12:07:18,807 : WARN  : KNIME-Worker-167-String to Path (Variable) 3:74:0:78:75 :  : Node : List Files/Folders : 3:74:0:70 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solutions-folder-gdrive_location"
+2023-07-31 12:07:29,579 : WARN  : main :  : Node : Transfer Files (Table) : 3:74:0:71 : Errors overwriting node settings with flow variables: Unknown variable "hf5files-folder-path_location"
+2023-07-31 12:07:30,006 : WARN  : main :  : Node : Transfer Files (Table) : 3:74:0:71 : Errors overwriting node settings with flow variables: Unknown variable "hf5files-folder-path_location"
+2023-07-31 12:07:36,972 : WARN  : KNIME-Worker-169-Row Filter 3:74:0:72 :  : Node : Transfer Files (Table) : 3:74:0:71 : Errors overwriting node settings with flow variables: Unknown variable "hf5files-folder-path_location"
+2023-07-31 12:08:14,492 : WARN  : main :  : Node : Transfer Files (Table) : 3:74:0:71 : Errors overwriting node settings with flow variables: Unknown variable "hf5files-folder-path_location"
+2023-07-31 12:08:14,866 : WARN  : main :  : Node : Transfer Files (Table) : 3:74:0:71 : Errors overwriting node settings with flow variables: Unknown variable "hf5files-folder-path_location"
+2023-07-31 12:09:33,759 : WARN  : main :  : Node : List Files/Folders : 3:74:0:70 : Errors overwriting node settings with flow variables: Unknown variable "pde-solutions-folder-gdrive_location"
+2023-07-31 12:11:28,087 : WARN  : main :  : Node : List Files/Folders : 3:98:0:109:76 : Errors overwriting node settings with flow variables: Unknown variable "Path"
+2023-07-31 12:11:28,087 : WARN  : main :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 12:11:28,442 : WARN  : main :  : Node : List Files/Folders : 3:98:0:109:76 : Errors overwriting node settings with flow variables: Unknown variable "Path"
+2023-07-31 12:11:28,443 : WARN  : main :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 12:11:30,085 : WARN  : KNIME-Worker-175-Component Input 3:98:0:111 :  : Node : List Files/Folders : 3:98:0:109:76 : Errors overwriting node settings with flow variables: Unknown variable "Path"
+2023-07-31 12:11:30,086 : WARN  : KNIME-Worker-175-Component Input 3:98:0:111 :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 12:12:31,104 : WARN  : KNIME-Worker-176-Single Selection Configuration 3:98:0:78 :  : Node : List Files/Folders : 3:98:0:109:76 : Errors overwriting node settings with flow variables: Unknown variable "Path"
+2023-07-31 12:12:31,105 : WARN  : KNIME-Worker-176-Single Selection Configuration 3:98:0:78 :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 12:15:04,522 : WARN  : KNIME-Worker-179-Table Row To Variable 3:98:0:109:80 :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 12:15:04,562 : WARN  : KNIME-Worker-179-Table Row To Variable 3:98:0:109:80 :  : Node : Variable To Table Row : 3:98:0:108:102 : No variables selected
+2023-07-31 12:15:04,562 : WARN  : KNIME-Worker-179-Table Row To Variable 3:98:0:109:80 :  : Node : Files/Folders Meta Info : 3:98:0:108:100 : The selected column 'pde-state-solution-folder_location' is not part of the input
+2023-07-31 12:16:58,162 : WARN  : main :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 12:17:25,365 : WARN  : main :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 12:17:25,811 : WARN  : main :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 12:19:40,868 : WARN  : main :  : Node : List Files/Folders : 3:98:0:110:90 : Errors overwriting node settings with flow variables: Unknown variable "hf5files-folder-path_location"
+2023-07-31 12:19:40,869 : WARN  : main :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 12:19:43,963 : WARN  : main :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 12:19:46,420 : WARN  : main :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 12:19:48,292 : WARN  : main :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 12:19:50,418 : WARN  : main :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 12:19:53,511 : WARN  : main :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 12:19:53,511 : WARN  : main :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 12:19:57,558 : WARN  : main :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 12:19:59,375 : WARN  : main :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 12:20:37,775 : WARN  : main :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 12:20:38,460 : WARN  : main :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 12:20:53,073 : WARN  : main :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 12:20:53,362 : WARN  : main :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 12:22:57,534 : WARN  : KNIME-Worker-194-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Variable To Table Row : 3:98:0:108:102 : No variables selected
+2023-07-31 12:22:57,535 : WARN  : KNIME-Worker-194-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Files/Folders Meta Info : 3:98:0:108:100 : The selected column 'pde-state-solution-folder_location' is not part of the input
+2023-07-31 12:23:07,219 : WARN  : main :  : Node : Variable To Table Row : 3:98:0:108:102 : No variables selected
+2023-07-31 12:23:07,219 : WARN  : main :  : Node : Files/Folders Meta Info : 3:98:0:108:100 : The selected column 'pde-state-solution-folder_location' is not part of the input
+2023-07-31 12:23:07,953 : WARN  : main :  : Node : Variable To Table Row : 3:98:0:108:102 : No variables selected
+2023-07-31 12:23:07,954 : WARN  : main :  : Node : Files/Folders Meta Info : 3:98:0:108:100 : The selected column 'pde-state-solution-folder_location' is not part of the input
+2023-07-31 12:24:09,104 : WARN  : main :  : Node : Variable To Table Row : 3:98:0:108:102 : No variables selected
+2023-07-31 12:24:09,105 : WARN  : main :  : Node : Files/Folders Meta Info : 3:98:0:108:100 : The selected column 'pde-state-solution-folder_location' is not part of the input
+2023-07-31 12:24:09,396 : WARN  : main :  : Node : Variable To Table Row : 3:98:0:108:102 : No variables selected
+2023-07-31 12:24:09,396 : WARN  : main :  : Node : Files/Folders Meta Info : 3:98:0:108:100 : The selected column 'pde-state-solution-folder_location' is not part of the input
+2023-07-31 12:24:11,502 : ERROR : KNIME-Worker-198-String to Path (Variable) 3:98:0:108:86 :  : Node : CASE Switch Start : 3:98:0:108:105 : Configure failed (NumberFormatException): For input string: "missing"
+java.lang.NumberFormatException: For input string: "missing"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeModel.configure(CaseStartAnyNodeModel.java:100)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1099)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:1989)
+	at org.knime.core.node.Node.configure(Node.java:1926)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:566)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:315)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:200)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6657)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:6816)
+	at org.knime.core.node.workflow.WorkflowManager.doAfterExecution(WorkflowManager.java:3671)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteFinished(NodeContainer.java:689)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:238)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-07-31 12:24:26,862 : WARN  : KNIME-Worker-194-Table Row To Variable 3:98:0:108:104 :  : Node : CASE Switch End : 3:98:0:108:107 : Multiple inputs are active - causing node to fail. You can change this behavior in the node configuration dialog.
+2023-07-31 12:24:56,197 : WARN  : KNIME-Worker-198-List Files/Folders 3:98:0:82 :  : Node : List Files/Folders : 3:98:0:82 : Node created an empty data table.
+2023-07-31 12:25:01,626 : WARN  : KNIME-Worker-199-Row Filter 3:98:0:87 :  : Node : Row Filter : 3:98:0:87 : Node created an empty data table.
+2023-07-31 12:25:01,632 : WARN  : KNIME-Worker-201-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Variable To Table Row : 3:98:0:108:102 : No variables selected
+2023-07-31 12:25:01,633 : WARN  : KNIME-Worker-201-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Files/Folders Meta Info : 3:98:0:108:100 : The selected column 'pde-state-solution-folder_location' is not part of the input
+2023-07-31 12:25:01,636 : ERROR : KNIME-Worker-202-String to Path (Variable) 3:98:0:108:86 :  : Node : CASE Switch Start : 3:98:0:108:105 : Configure failed (NumberFormatException): For input string: "missing"
+java.lang.NumberFormatException: For input string: "missing"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeModel.configure(CaseStartAnyNodeModel.java:100)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1099)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:1989)
+	at org.knime.core.node.Node.configure(Node.java:1926)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:566)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:315)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:207)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6657)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:6816)
+	at org.knime.core.node.workflow.WorkflowManager.doAfterExecution(WorkflowManager.java:3671)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteFinished(NodeContainer.java:689)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:238)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-07-31 12:25:03,683 : WARN  : KNIME-Worker-200-Table Row To Variable 3:98:0:108:104 :  : Node : CASE Switch End : 3:98:0:108:107 : Multiple inputs are active - causing node to fail. You can change this behavior in the node configuration dialog.
+2023-07-31 12:25:03,935 : WARN  : KNIME-Worker-202-List Files/Folders 3:98:0:82 :  : Node : List Files/Folders : 3:98:0:82 : Node created an empty data table.
+2023-07-31 12:25:03,937 : WARN  : KNIME-Worker-197-Row Filter 3:98:0:87 :  : Node : Row Filter : 3:98:0:87 : Node created an empty data table.
+2023-07-31 12:25:03,939 : WARN  : KNIME-Worker-199-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Variable To Table Row : 3:98:0:108:102 : No variables selected
+2023-07-31 12:25:03,939 : WARN  : KNIME-Worker-199-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Files/Folders Meta Info : 3:98:0:108:100 : The selected column 'pde-state-solution-folder_location' is not part of the input
+2023-07-31 12:25:03,942 : ERROR : KNIME-Worker-194-String to Path (Variable) 3:98:0:108:86 :  : Node : CASE Switch Start : 3:98:0:108:105 : Configure failed (NumberFormatException): For input string: "missing"
+java.lang.NumberFormatException: For input string: "missing"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeModel.configure(CaseStartAnyNodeModel.java:100)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1099)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:1989)
+	at org.knime.core.node.Node.configure(Node.java:1926)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:566)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:315)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:207)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6657)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:6816)
+	at org.knime.core.node.workflow.WorkflowManager.doAfterExecution(WorkflowManager.java:3671)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteFinished(NodeContainer.java:689)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:238)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-07-31 12:25:04,535 : WARN  : KNIME-Worker-198-Table Row To Variable 3:98:0:108:104 :  : Node : CASE Switch End : 3:98:0:108:107 : Multiple inputs are active - causing node to fail. You can change this behavior in the node configuration dialog.
+2023-07-31 12:25:04,804 : WARN  : KNIME-Worker-194-List Files/Folders 3:98:0:82 :  : Node : List Files/Folders : 3:98:0:82 : Node created an empty data table.
+2023-07-31 12:25:04,805 : WARN  : KNIME-Worker-195-Row Filter 3:98:0:87 :  : Node : Row Filter : 3:98:0:87 : Node created an empty data table.
+2023-07-31 12:25:04,807 : WARN  : KNIME-Worker-197-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Variable To Table Row : 3:98:0:108:102 : No variables selected
+2023-07-31 12:25:04,807 : WARN  : KNIME-Worker-197-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Files/Folders Meta Info : 3:98:0:108:100 : The selected column 'pde-state-solution-folder_location' is not part of the input
+2023-07-31 12:25:04,810 : ERROR : KNIME-Worker-200-String to Path (Variable) 3:98:0:108:86 :  : Node : CASE Switch Start : 3:98:0:108:105 : Configure failed (NumberFormatException): For input string: "missing"
+java.lang.NumberFormatException: For input string: "missing"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeModel.configure(CaseStartAnyNodeModel.java:100)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1099)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:1989)
+	at org.knime.core.node.Node.configure(Node.java:1926)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:566)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:315)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:207)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6657)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:6816)
+	at org.knime.core.node.workflow.WorkflowManager.doAfterExecution(WorkflowManager.java:3671)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteFinished(NodeContainer.java:689)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:238)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-07-31 12:25:05,367 : WARN  : KNIME-Worker-202-Table Row To Variable 3:98:0:108:104 :  : Node : CASE Switch End : 3:98:0:108:107 : Multiple inputs are active - causing node to fail. You can change this behavior in the node configuration dialog.
+2023-07-31 12:25:05,622 : WARN  : KNIME-Worker-200-List Files/Folders 3:98:0:82 :  : Node : List Files/Folders : 3:98:0:82 : Node created an empty data table.
+2023-07-31 12:25:05,623 : WARN  : KNIME-Worker-201-Row Filter 3:98:0:87 :  : Node : Row Filter : 3:98:0:87 : Node created an empty data table.
+2023-07-31 12:25:05,625 : WARN  : KNIME-Worker-195-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Variable To Table Row : 3:98:0:108:102 : No variables selected
+2023-07-31 12:25:05,626 : WARN  : KNIME-Worker-195-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Files/Folders Meta Info : 3:98:0:108:100 : The selected column 'pde-state-solution-folder_location' is not part of the input
+2023-07-31 12:25:05,628 : ERROR : KNIME-Worker-198-String to Path (Variable) 3:98:0:108:86 :  : Node : CASE Switch Start : 3:98:0:108:105 : Configure failed (NumberFormatException): For input string: "missing"
+java.lang.NumberFormatException: For input string: "missing"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeModel.configure(CaseStartAnyNodeModel.java:100)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1099)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:1989)
+	at org.knime.core.node.Node.configure(Node.java:1926)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:566)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:315)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:207)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6657)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:6816)
+	at org.knime.core.node.workflow.WorkflowManager.doAfterExecution(WorkflowManager.java:3671)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteFinished(NodeContainer.java:689)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:238)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-07-31 12:25:06,220 : WARN  : KNIME-Worker-194-Table Row To Variable 3:98:0:108:104 :  : Node : CASE Switch End : 3:98:0:108:107 : Multiple inputs are active - causing node to fail. You can change this behavior in the node configuration dialog.
+2023-07-31 12:25:06,470 : WARN  : KNIME-Worker-198-List Files/Folders 3:98:0:82 :  : Node : List Files/Folders : 3:98:0:82 : Node created an empty data table.
+2023-07-31 12:25:06,472 : WARN  : KNIME-Worker-199-Row Filter 3:98:0:87 :  : Node : Row Filter : 3:98:0:87 : Node created an empty data table.
+2023-07-31 12:25:06,473 : WARN  : KNIME-Worker-201-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Variable To Table Row : 3:98:0:108:102 : No variables selected
+2023-07-31 12:25:06,473 : WARN  : KNIME-Worker-201-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Files/Folders Meta Info : 3:98:0:108:100 : The selected column 'pde-state-solution-folder_location' is not part of the input
+2023-07-31 12:25:06,476 : ERROR : KNIME-Worker-202-String to Path (Variable) 3:98:0:108:86 :  : Node : CASE Switch Start : 3:98:0:108:105 : Configure failed (NumberFormatException): For input string: "missing"
+java.lang.NumberFormatException: For input string: "missing"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeModel.configure(CaseStartAnyNodeModel.java:100)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1099)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:1989)
+	at org.knime.core.node.Node.configure(Node.java:1926)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:566)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:315)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:207)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6657)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:6816)
+	at org.knime.core.node.workflow.WorkflowManager.doAfterExecution(WorkflowManager.java:3671)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteFinished(NodeContainer.java:689)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:238)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-07-31 12:25:07,057 : WARN  : KNIME-Worker-200-Table Row To Variable 3:98:0:108:104 :  : Node : CASE Switch End : 3:98:0:108:107 : Multiple inputs are active - causing node to fail. You can change this behavior in the node configuration dialog.
+2023-07-31 12:25:07,307 : WARN  : KNIME-Worker-202-List Files/Folders 3:98:0:82 :  : Node : List Files/Folders : 3:98:0:82 : Node created an empty data table.
+2023-07-31 12:25:07,308 : WARN  : KNIME-Worker-197-Row Filter 3:98:0:87 :  : Node : Row Filter : 3:98:0:87 : Node created an empty data table.
+2023-07-31 12:25:07,310 : WARN  : KNIME-Worker-199-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Variable To Table Row : 3:98:0:108:102 : No variables selected
+2023-07-31 12:25:07,311 : WARN  : KNIME-Worker-199-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Files/Folders Meta Info : 3:98:0:108:100 : The selected column 'pde-state-solution-folder_location' is not part of the input
+2023-07-31 12:25:07,313 : ERROR : KNIME-Worker-194-String to Path (Variable) 3:98:0:108:86 :  : Node : CASE Switch Start : 3:98:0:108:105 : Configure failed (NumberFormatException): For input string: "missing"
+java.lang.NumberFormatException: For input string: "missing"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeModel.configure(CaseStartAnyNodeModel.java:100)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1099)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:1989)
+	at org.knime.core.node.Node.configure(Node.java:1926)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:566)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:315)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:207)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6657)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:6816)
+	at org.knime.core.node.workflow.WorkflowManager.doAfterExecution(WorkflowManager.java:3671)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteFinished(NodeContainer.java:689)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:238)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-07-31 12:25:07,916 : WARN  : KNIME-Worker-198-Table Row To Variable 3:98:0:108:104 :  : Node : CASE Switch End : 3:98:0:108:107 : Multiple inputs are active - causing node to fail. You can change this behavior in the node configuration dialog.
+2023-07-31 12:25:08,231 : WARN  : KNIME-Worker-197-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Variable To Table Row : 3:98:0:108:102 : No variables selected
+2023-07-31 12:25:08,231 : WARN  : KNIME-Worker-197-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Files/Folders Meta Info : 3:98:0:108:100 : The selected column 'pde-state-solution-folder_location' is not part of the input
+2023-07-31 12:25:08,234 : ERROR : KNIME-Worker-200-String to Path (Variable) 3:98:0:108:86 :  : Node : CASE Switch Start : 3:98:0:108:105 : Configure failed (NumberFormatException): For input string: "missing"
+java.lang.NumberFormatException: For input string: "missing"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeModel.configure(CaseStartAnyNodeModel.java:100)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1099)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:1989)
+	at org.knime.core.node.Node.configure(Node.java:1926)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:566)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:315)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:207)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6657)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:6816)
+	at org.knime.core.node.workflow.WorkflowManager.doAfterExecution(WorkflowManager.java:3671)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteFinished(NodeContainer.java:689)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:238)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-07-31 12:25:08,867 : WARN  : KNIME-Worker-202-Table Row To Variable 3:98:0:108:104 :  : Node : CASE Switch End : 3:98:0:108:107 : Multiple inputs are active - causing node to fail. You can change this behavior in the node configuration dialog.
+2023-07-31 12:25:09,120 : WARN  : KNIME-Worker-200-List Files/Folders 3:98:0:82 :  : Node : List Files/Folders : 3:98:0:82 : Node created an empty data table.
+2023-07-31 12:25:09,121 : WARN  : KNIME-Worker-201-Row Filter 3:98:0:87 :  : Node : Row Filter : 3:98:0:87 : Node created an empty data table.
+2023-07-31 12:25:09,124 : WARN  : KNIME-Worker-195-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Variable To Table Row : 3:98:0:108:102 : No variables selected
+2023-07-31 12:25:09,124 : WARN  : KNIME-Worker-195-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Files/Folders Meta Info : 3:98:0:108:100 : The selected column 'pde-state-solution-folder_location' is not part of the input
+2023-07-31 12:25:09,127 : ERROR : KNIME-Worker-198-String to Path (Variable) 3:98:0:108:86 :  : Node : CASE Switch Start : 3:98:0:108:105 : Configure failed (NumberFormatException): For input string: "missing"
+java.lang.NumberFormatException: For input string: "missing"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeModel.configure(CaseStartAnyNodeModel.java:100)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1099)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:1989)
+	at org.knime.core.node.Node.configure(Node.java:1926)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:566)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:315)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:207)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6657)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:6816)
+	at org.knime.core.node.workflow.WorkflowManager.doAfterExecution(WorkflowManager.java:3671)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteFinished(NodeContainer.java:689)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:238)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-07-31 12:25:11,036 : WARN  : KNIME-Worker-194-Table Row To Variable 3:98:0:108:104 :  : Node : CASE Switch End : 3:98:0:108:107 : Multiple inputs are active - causing node to fail. You can change this behavior in the node configuration dialog.
+2023-07-31 12:25:11,284 : WARN  : KNIME-Worker-198-List Files/Folders 3:98:0:82 :  : Node : List Files/Folders : 3:98:0:82 : Node created an empty data table.
+2023-07-31 12:25:11,284 : WARN  : KNIME-Worker-199-Row Filter 3:98:0:87 :  : Node : Row Filter : 3:98:0:87 : Node created an empty data table.
+2023-07-31 12:25:11,286 : WARN  : KNIME-Worker-201-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Variable To Table Row : 3:98:0:108:102 : No variables selected
+2023-07-31 12:25:11,287 : WARN  : KNIME-Worker-201-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Files/Folders Meta Info : 3:98:0:108:100 : The selected column 'pde-state-solution-folder_location' is not part of the input
+2023-07-31 12:25:11,289 : ERROR : KNIME-Worker-202-String to Path (Variable) 3:98:0:108:86 :  : Node : CASE Switch Start : 3:98:0:108:105 : Configure failed (NumberFormatException): For input string: "missing"
+java.lang.NumberFormatException: For input string: "missing"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeModel.configure(CaseStartAnyNodeModel.java:100)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1099)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:1989)
+	at org.knime.core.node.Node.configure(Node.java:1926)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:566)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:315)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:207)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6657)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:6816)
+	at org.knime.core.node.workflow.WorkflowManager.doAfterExecution(WorkflowManager.java:3671)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteFinished(NodeContainer.java:689)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:238)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-07-31 12:25:11,887 : WARN  : KNIME-Worker-200-Table Row To Variable 3:98:0:108:104 :  : Node : CASE Switch End : 3:98:0:108:107 : Multiple inputs are active - causing node to fail. You can change this behavior in the node configuration dialog.
+2023-07-31 12:25:12,133 : WARN  : KNIME-Worker-202-List Files/Folders 3:98:0:82 :  : Node : List Files/Folders : 3:98:0:82 : Node created an empty data table.
+2023-07-31 12:25:12,134 : WARN  : KNIME-Worker-197-Row Filter 3:98:0:87 :  : Node : Row Filter : 3:98:0:87 : Node created an empty data table.
+2023-07-31 12:25:12,136 : WARN  : KNIME-Worker-199-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Variable To Table Row : 3:98:0:108:102 : No variables selected
+2023-07-31 12:25:12,136 : WARN  : KNIME-Worker-199-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Files/Folders Meta Info : 3:98:0:108:100 : The selected column 'pde-state-solution-folder_location' is not part of the input
+2023-07-31 12:25:12,139 : ERROR : KNIME-Worker-194-String to Path (Variable) 3:98:0:108:86 :  : Node : CASE Switch Start : 3:98:0:108:105 : Configure failed (NumberFormatException): For input string: "missing"
+java.lang.NumberFormatException: For input string: "missing"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeModel.configure(CaseStartAnyNodeModel.java:100)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1099)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:1989)
+	at org.knime.core.node.Node.configure(Node.java:1926)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:566)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:315)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:207)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6657)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:6816)
+	at org.knime.core.node.workflow.WorkflowManager.doAfterExecution(WorkflowManager.java:3671)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteFinished(NodeContainer.java:689)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:238)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-07-31 12:25:12,681 : WARN  : KNIME-Worker-198-Table Row To Variable 3:98:0:108:104 :  : Node : CASE Switch End : 3:98:0:108:107 : Multiple inputs are active - causing node to fail. You can change this behavior in the node configuration dialog.
+2023-07-31 12:25:12,948 : WARN  : KNIME-Worker-194-List Files/Folders 3:98:0:82 :  : Node : List Files/Folders : 3:98:0:82 : Node created an empty data table.
+2023-07-31 12:25:12,949 : WARN  : KNIME-Worker-195-Row Filter 3:98:0:87 :  : Node : Row Filter : 3:98:0:87 : Node created an empty data table.
+2023-07-31 12:25:12,951 : WARN  : KNIME-Worker-197-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Variable To Table Row : 3:98:0:108:102 : No variables selected
+2023-07-31 12:25:12,951 : WARN  : KNIME-Worker-197-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Files/Folders Meta Info : 3:98:0:108:100 : The selected column 'pde-state-solution-folder_location' is not part of the input
+2023-07-31 12:25:12,954 : ERROR : KNIME-Worker-200-String to Path (Variable) 3:98:0:108:86 :  : Node : CASE Switch Start : 3:98:0:108:105 : Configure failed (NumberFormatException): For input string: "missing"
+java.lang.NumberFormatException: For input string: "missing"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeModel.configure(CaseStartAnyNodeModel.java:100)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1099)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:1989)
+	at org.knime.core.node.Node.configure(Node.java:1926)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:566)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:315)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:207)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6657)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:6816)
+	at org.knime.core.node.workflow.WorkflowManager.doAfterExecution(WorkflowManager.java:3671)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteFinished(NodeContainer.java:689)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:238)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-07-31 12:25:13,514 : WARN  : KNIME-Worker-202-Table Row To Variable 3:98:0:108:104 :  : Node : CASE Switch End : 3:98:0:108:107 : Multiple inputs are active - causing node to fail. You can change this behavior in the node configuration dialog.
+2023-07-31 12:25:13,770 : WARN  : KNIME-Worker-200-List Files/Folders 3:98:0:82 :  : Node : List Files/Folders : 3:98:0:82 : Node created an empty data table.
+2023-07-31 12:25:13,771 : WARN  : KNIME-Worker-201-Row Filter 3:98:0:87 :  : Node : Row Filter : 3:98:0:87 : Node created an empty data table.
+2023-07-31 12:25:13,773 : WARN  : KNIME-Worker-195-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Variable To Table Row : 3:98:0:108:102 : No variables selected
+2023-07-31 12:25:13,773 : WARN  : KNIME-Worker-195-Table Row To Variable Loop Start 3:98:0:81 :  : Node : Files/Folders Meta Info : 3:98:0:108:100 : The selected column 'pde-state-solution-folder_location' is not part of the input
+2023-07-31 12:25:13,776 : ERROR : KNIME-Worker-198-String to Path (Variable) 3:98:0:108:86 :  : Node : CASE Switch Start : 3:98:0:108:105 : Configure failed (NumberFormatException): For input string: "missing"
+java.lang.NumberFormatException: For input string: "missing"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeModel.configure(CaseStartAnyNodeModel.java:100)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1099)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:1989)
+	at org.knime.core.node.Node.configure(Node.java:1926)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:566)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:315)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:207)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6657)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:6816)
+	at org.knime.core.node.workflow.WorkflowManager.doAfterExecution(WorkflowManager.java:3671)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteFinished(NodeContainer.java:689)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:238)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-07-31 12:25:14,360 : WARN  : KNIME-Worker-194-Table Row To Variable 3:98:0:108:104 :  : Node : CASE Switch End : 3:98:0:108:107 : Multiple inputs are active - causing node to fail. You can change this behavior in the node configuration dialog.
+2023-07-31 12:25:14,623 : WARN  : KNIME-Worker-198-List Files/Folders 3:98:0:82 :  : Node : List Files/Folders : 3:98:0:82 : Node created an empty data table.
+2023-07-31 12:25:14,624 : WARN  : KNIME-Worker-199-Row Filter 3:98:0:87 :  : Node : Row Filter : 3:98:0:87 : Node created an empty data table.
+2023-07-31 12:25:14,661 : WARN  : KNIME-Worker-200-Loop End 3:98:0:88 :  : Node : Transfer Files (Table) : 3:98:0:97 : The selected flow variable references a connected file system. Please add the missing file system connection port.
+2023-07-31 12:27:09,595 : WARN  : KNIME-Worker-203-String Manipulation 3:98:0:89 :  : Node : Transfer Files (Table) : 3:98:0:97 : The selected flow variable references a connected file system. Please add the missing file system connection port.
+2023-07-31 12:27:14,878 : WARN  : KNIME-Worker-204-Reference Row Filter 3:98:0:95 :  : Node : Reference Row Filter : 3:98:0:95 : Node created an empty data table.
+2023-07-31 12:27:14,879 : WARN  : KNIME-Worker-204-Reference Row Filter 3:98:0:95 :  : Node : Transfer Files (Table) : 3:98:0:97 : The selected flow variable references a connected file system. Please add the missing file system connection port.
+2023-07-31 12:27:25,752 : WARN  : main :  : WrappedNodeDialog : Transfer Files (Table) : 3:98:0:97 : failed to apply settings: The selected flow variable references a connected file system. Please add the missing file system connection port.
+org.knime.core.node.InvalidSettingsException: The selected flow variable references a connected file system. Please add the missing file system connection port.
+	at org.knime.filehandling.core.defaultnodesettings.filesystemchooser.config.FileSystemConfiguration$ValidationConsumer.failIfNecessary(FileSystemConfiguration.java:858)
+	at org.knime.filehandling.core.defaultnodesettings.filesystemchooser.config.FileSystemConfiguration.validate(FileSystemConfiguration.java:758)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.AbstractSettingsModelFileChooser.validateConfig(AbstractSettingsModelFileChooser.java:556)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.AbstractDialogComponentFileChooser.validateSettingsBeforeSave(AbstractDialogComponentFileChooser.java:423)
+	at org.knime.core.node.defaultnodesettings.DialogComponent.saveSettingsTo(DialogComponent.java:198)
+	at org.knime.filehandling.utility.nodes.transfer.AbstractTransferFilesNodeDialog.saveSettingsTo(AbstractTransferFilesNodeDialog.java:318)
+	at org.knime.filehandling.utility.nodes.transfer.table.TransferFilesTableNodeDialog.saveSettingsTo(TransferFilesTableNodeDialog.java:176)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2023-07-31 12:27:27,540 : WARN  : main :  : WrappedNodeDialog : Transfer Files (Table) : 3:98:0:97 : failed to apply settings: The selected flow variable references a connected file system. Please add the missing file system connection port.
+org.knime.core.node.InvalidSettingsException: The selected flow variable references a connected file system. Please add the missing file system connection port.
+	at org.knime.filehandling.core.defaultnodesettings.filesystemchooser.config.FileSystemConfiguration$ValidationConsumer.failIfNecessary(FileSystemConfiguration.java:858)
+	at org.knime.filehandling.core.defaultnodesettings.filesystemchooser.config.FileSystemConfiguration.validate(FileSystemConfiguration.java:758)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.AbstractSettingsModelFileChooser.validateConfig(AbstractSettingsModelFileChooser.java:556)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.AbstractDialogComponentFileChooser.validateSettingsBeforeSave(AbstractDialogComponentFileChooser.java:423)
+	at org.knime.core.node.defaultnodesettings.DialogComponent.saveSettingsTo(DialogComponent.java:198)
+	at org.knime.filehandling.utility.nodes.transfer.AbstractTransferFilesNodeDialog.saveSettingsTo(AbstractTransferFilesNodeDialog.java:318)
+	at org.knime.filehandling.utility.nodes.transfer.table.TransferFilesTableNodeDialog.saveSettingsTo(TransferFilesTableNodeDialog.java:176)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2023-07-31 12:27:47,029 : WARN  : main :  : Node : Transfer Files (Table) : 3:98:0:97 : The file system at the input port differs from the connected file system provided via flow variable. Only the path (C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ\matlab\h5files\Linear2dPDEEnv-v0) of the variable is used.
+2023-07-31 12:27:57,354 : WARN  : KNIME-Worker-206-Transfer Files (Table) 3:98:0:97 :  : Node : Transfer Files (Table) : 3:98:0:97 : Node created an empty data table.
+2023-07-31 12:28:22,112 : WARN  : main :  : Node : List Files/Folders : 3:98:0:109:76 : Errors overwriting node settings with flow variables: Unknown variable "Path"
+2023-07-31 12:28:22,112 : WARN  : main :  : Node : List Files/Folders : 3:98:0:110:93 : Errors overwriting node settings with flow variables: Unknown variable "h5files-environment-folder_location"
+2023-07-31 12:28:24,014 : WARN  : main :  : Node : Google Authenticator : 3:3 : Credentials changed. Please authenticate using the node dialog.

@@ -1,10 +1,10 @@
-C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ
-C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\matlab\h5files\Linear1dPDEEnv-v0
-C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\matlab\h5files
-/My Drive/Github/HJDQN/HJQ/outputs/Linear1dPDEEnv-v0/HJDQN_2023-07-18T134204/pde_solutions
-/My Drive/Github/HJDQN/HJQ/outputs/Linear1dPDEEnv-v0/HJDQN_2023-07-18T134204
-/My Drive/Github/HJDQN/HJQ/outputs/Linear1dPDEEnv-v0
+C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ\matlab\h5files\Linear2dPDEEnv-v0
+C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ\matlab\h5files
+/My Drive/Github/HJDQN/HJQ/pde_outputs/pde_solutions
+/My Drive/Github/HJDQN/HJQ/pde_outputs/ricatti_solution_matrices
+C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ\matlab\riccati_solution_matrices
+C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ\matlab\fem_matrices
+/My Drive/Github/HJDQN/HJQ/pde_outputs/fem_matrices
+/My Drive/PDE_Outputs/FEM_matrices
 /My Drive/Github/HJDQN/HJQ/outputs
-/My Drive/Github/HJDQN/HJQ/outputs/LinearQuadraticRegulatorNDEnv-v0/HJDQN_2023-06-17T185139/checkpoints
-/My Drive/Github/HJDQN/HJQ/outputs/LinearQuadraticRegulatorNDEnv-v0/HJDQN_2023-06-17T185139/parameter
-/My Drive/PDE_Outputs/PDE_Solutions
+C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ

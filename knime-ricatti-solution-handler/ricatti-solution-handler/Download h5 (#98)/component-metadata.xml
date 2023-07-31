@@ -6,7 +6,6 @@
         <port name="Port 1"/>
         <port name="Port 2"/>
         <port name="Port 3"/>
-        <port name="Port 4"/>
     </in-ports>
     <out-ports/>
 </component-metadata>

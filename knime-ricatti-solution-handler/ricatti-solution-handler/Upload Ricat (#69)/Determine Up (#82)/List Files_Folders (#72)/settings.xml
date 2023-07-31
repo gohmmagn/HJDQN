@@ -6,8 +6,6 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="add_folder_identifier_column" type="xboolean" value="false"/>
-        <entry key="include_root_folder" type="xboolean" value="false"/>
         <config key="file_chooser_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_ReaderFileChooser"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -15,7 +13,7 @@
         <config key="file_chooser">
             <config key="file_system_chooser__Internals">
                 <entry key="has_fs_port" type="xboolean" value="true"/>
-                <entry key="overwritten_by_variable" type="xboolean" value="false"/>
+                <entry key="overwritten_by_variable" type="xboolean" value="true"/>
                 <entry key="convenience_fs_category" type="xstring" value="LOCAL"/>
                 <entry key="relative_to" type="xstring" value="knime.workflow.data"/>
                 <entry key="mountpoint" type="xstring" value="LOCAL"/>
@@ -27,7 +25,7 @@
                 <entry key="location_present" type="xboolean" value="true"/>
                 <entry key="file_system_type" type="xstring" value="CONNECTED"/>
                 <entry key="file_system_specifier" type="xstring" value="google-drive"/>
-                <entry key="path" type="xstring" value="/My Drive/PDE_Outputs/Ricatti_solution_matrices"/>
+                <entry key="path" type="xstring" value="/My Drive/Github/HJDQN/HJQ/pde_outputs/ricatti_solution_matrices"/>
             </config>
             <config key="filter_mode_Internals">
                 <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
@@ -55,6 +53,19 @@
                 </config>
             </config>
         </config>
+        <entry key="add_folder_identifier_column" type="xboolean" value="false"/>
+        <entry key="include_root_folder" type="xboolean" value="false"/>
+    </config>
+    <config key="variables">
+        <entry key="version" type="xstring" value="V_2019_09_13"/>
+        <config key="tree">
+            <config key="file_chooser">
+                <config key="path">
+                    <entry key="used_variable" type="xstring" value="ricatti-solutions-folder-gdrive_location"/>
+                    <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+                </config>
+            </config>
+        </config>
     </config>
     <config key="nodeAnnotation">
         <entry key="text" type="xstring" value=""/>
@@ -73,6 +84,10 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="IDLE"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Errors overwriting node settings with flow variables: Unknown variable &quot;ricatti-solutions-folder-gdrive_location&quot;"/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.filehandling.utility.nodes.listpaths.ListFilesAndFoldersNodeFactory"/>
     <entry key="node-name" type="xstring" value="List Files/Folders"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Filehandling Nodes"/>

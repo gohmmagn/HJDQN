@@ -17,11 +17,6 @@
             <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
         <entry key="destination_column" type="xstring" value="Path"/>
-        <config key="fail_if_source_does_not_exist_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="fail_if_source_does_not_exist" type="xboolean" value="false"/>
         <config key="destination_location_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_WriterFileChooser"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -29,7 +24,7 @@
         <config key="destination_location">
             <config key="file_system_chooser__Internals">
                 <entry key="has_fs_port" type="xboolean" value="true"/>
-                <entry key="overwritten_by_variable" type="xboolean" value="false"/>
+                <entry key="overwritten_by_variable" type="xboolean" value="true"/>
                 <entry key="convenience_fs_category" type="xstring" value="LOCAL"/>
                 <entry key="relative_to" type="xstring" value="knime.workflow.data"/>
                 <entry key="mountpoint" type="xstring" value="LOCAL"/>
@@ -55,6 +50,11 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="folder_prefix" type="xstring" value="&lt;folder prefix&gt;"/>
+        <config key="transfer_policy_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="transfer_policy" type="xstring" value="OVERWRITE"/>
         <config key="delete_source_files_folders_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -70,11 +70,22 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="detailed_output" type="xboolean" value="false"/>
-        <config key="transfer_policy_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+        <config key="fail_if_source_does_not_exist_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="transfer_policy" type="xstring" value="OVERWRITE"/>
+        <entry key="fail_if_source_does_not_exist" type="xboolean" value="false"/>
+    </config>
+    <config key="variables">
+        <entry key="version" type="xstring" value="V_2019_09_13"/>
+        <config key="tree">
+            <config key="destination_location">
+                <config key="path">
+                    <entry key="used_variable" type="xstring" value="gym-lqr-ricatti-solution-matrices-folder_location"/>
+                    <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+                </config>
+            </config>
+        </config>
     </config>
     <config key="nodeAnnotation">
         <entry key="text" type="xstring" value=""/>

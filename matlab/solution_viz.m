@@ -1,4 +1,3 @@
-%[file_path,timestamp] = getMostRecentH5File();
 path_c2d = 'h5files/HJDQN_2023-07-09T121841_linear_PDE_2D_state.h5';
 path_u2d = 'h5files/HJDQN_2023-07-09T121841_uncontrolled_linear_PDE_2D_state.h5';
 fem_matrices2d = 'fem_matrices/fem_matrices_2023-07-09T121841_linear_PDE_2D.mat';
@@ -175,26 +174,5 @@ function [l2error] = calculateL2Error(filename1, filename2, fem_matrices, T_end,
         l2error = sqrt(sum(sum(dt*(Z1-Z2)'*M*(Z1-Z2),1),2));
 
     end
-
-end
-
-function [file_path,timestamp] = getMostRecentH5File
-
-    h5files_folder = dir('h5files');
-    
-    all_file_names = {h5files_folder.name};
-    
-    file_names = regexp(all_file_names, 'HJDQN_\d{4}-\d{2}-\d{2}T\d{6}_state', 'match', 'once');
-    file_names(cellfun('isempty',file_names)) = [];
-    
-    time_stamps = regexp(file_names, '\d{4}-\d{2}-\d{2}T\d{6}', 'match', 'once');
-
-    infmt = "yyyy-MM-dd'T'HHmmss";
-    time_stamps_mat = datetime(time_stamps,"InputFormat",infmt);
-    
-    [~, idx] = sort(time_stamps_mat, 2, 'descend');
-    
-    file_path = strcat('h5files/',file_names{1,idx(1)},'.h5');
-    timestamp = time_stamps{1,idx(1)};
 
 end

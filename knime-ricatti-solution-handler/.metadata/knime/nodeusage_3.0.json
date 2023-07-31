@@ -5,7 +5,7 @@
         "nodes": [
             {
                 "id": "org.knime.google.api.nodes.authconnector.GoogleAuthNodeFactory#Google Authenticator",
-                "nrexecs": 2,
+                "nrexecs": 3,
                 "nrfails": 0,
                 "exectime": 0,
                 "nrcreated": 0,
@@ -191,8 +191,8 @@
         "createdVia": {
         }
     },
-    "uptime": 58202,
-    "workflowsOpened": 4,
+    "uptime": 61282,
+    "workflowsOpened": 5,
     "remoteWorkflowsOpened": 0,
     "columnarStorageWorkflowsOpened": 0,
     "workflowsImported": 0,
@@ -200,9 +200,9 @@
     "webUIPerspectiveSwitches": 0,
     "javaUIPerspectiveSwitches": 0,
     "lastUsedPerspective": "none (classic)",
-    "launches": 35,
+    "launches": 36,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 32909,
+    "timeSinceLastStart": 169100,
     "crashes": 0,
-    "properlyShutDown": true
+    "properlyShutDown": false
 }

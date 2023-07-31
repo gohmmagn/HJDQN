@@ -8,12 +8,6 @@
             <entry key="class" type="xstring" value="STRING"/>
             <entry key="value" type="xstring" value="C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ\matlab\fem_matrices"/>
         </config>
-        <config key="Variable_1">
-            <entry key="type" type="xstring" value="variable"/>
-            <entry key="name" type="xstring" value="fem-matrices-matlab-folder-path"/>
-            <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ\matlab\fem_matrices"/>
-        </config>
     </config>
     <config key="internal_node_subsettings">
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
@@ -67,6 +61,10 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="IDLE"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Component does not have input data, execute upstream nodes first"/>
+    </config>
     <entry key="isDeletable" type="xboolean" value="false"/>
     <entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory"/>
     <entry key="node-name" type="xstring" value="Component Input"/>

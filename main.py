@@ -53,7 +53,7 @@ tau = [1e-3]
 lr = [1e-2, 1e-4]
 sigma = [0.1, 0.25, 1]
 
-hyper_pars = [[15, 1e-3, 1e-4, 0.1]]
+hyper_pars = [[20, 1e-3, 1e-4, 0.25]]
 
 #for Li in L:
 #  for taui in tau:

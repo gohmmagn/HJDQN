@@ -17,6 +17,11 @@
             <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
         <entry key="destination_column" type="xstring" value="Path"/>
+        <config key="fail_if_source_does_not_exist_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="fail_if_source_does_not_exist" type="xboolean" value="false"/>
         <config key="destination_location_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_WriterFileChooser"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -50,11 +55,6 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="folder_prefix" type="xstring" value="&lt;folder prefix&gt;"/>
-        <config key="transfer_policy_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="transfer_policy" type="xstring" value="OVERWRITE"/>
         <config key="delete_source_files_folders_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -70,11 +70,11 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="detailed_output" type="xboolean" value="false"/>
-        <config key="fail_if_source_does_not_exist_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+        <config key="transfer_policy_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="fail_if_source_does_not_exist" type="xboolean" value="false"/>
+        <entry key="transfer_policy" type="xstring" value="OVERWRITE"/>
     </config>
     <config key="variables">
         <entry key="version" type="xstring" value="V_2019_09_13"/>
@@ -113,7 +113,7 @@
     <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.1.0.v202307121227"/>
+    <entry key="node-feature-version" type="xstring" value="5.1.1.v202308221556"/>
     <config key="factory_settings"/>
     <config key="node_creation_config">
         <config key="Source File System Connection">

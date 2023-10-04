@@ -6,7 +6,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="mainProjectDirectoryGDrive"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="/My Drive/Github/HJDQN/HJQ"/>
+            <entry key="value" type="xstring" value="/My Drive/Github/HJDQN"/>
         </config>
         <config key="Variable_1">
             <entry key="type" type="xstring" value="variable"/>
@@ -20,7 +20,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="mainProjectDirectoryGDrive"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="/My Drive/Github/HJDQN/HJQ"/>
+            <entry key="value" type="xstring" value="/My Drive/Github/HJDQN"/>
         </config>
         <config key="Variable_3">
             <entry key="type" type="xstring" value="variable"/>
@@ -89,11 +89,11 @@
     <entry key="node-bundle-name" type="xstring" value="KNIME Core API"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.core"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="5.1.0.v202307121410"/>
+    <entry key="node-bundle-version" type="xstring" value="5.1.1.v202309110912"/>
     <entry key="node-feature-name" type="xstring" value="KNIME AP Core feature"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.core.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.1.0.v202307121410"/>
+    <entry key="node-feature-version" type="xstring" value="5.1.1.v202309110912"/>
     <config key="factory_settings">
         <config key="port_0">
             <entry key="index" type="xint" value="0"/>

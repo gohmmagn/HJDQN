@@ -6,7 +6,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="fem-matrices-folder-gdrive"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="/My Drive/Github/HJDQN/HJQ/pde_outputs/fem_matrices"/>
+            <entry key="value" type="xstring" value="/My Drive/Github/HJDQN/pde_outputs/fem_matrices"/>
         </config>
     </config>
     <config key="internal_node_subsettings">

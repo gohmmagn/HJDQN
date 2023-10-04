@@ -58,7 +58,7 @@
     <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.1.0.v202307121227"/>
+    <entry key="node-feature-version" type="xstring" value="5.1.1.v202308221556"/>
     <config key="factory_settings"/>
     <config key="node_creation_config">
         <config key="File System Connection">

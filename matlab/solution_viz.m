@@ -6,15 +6,88 @@ path_c1d = 'h5files/HJDQN_2023-07-09T133851_linear_PDE_1D_state.h5';
 path_u1d = 'h5files/HJDQN_2023-07-09T133851_uncontrolled_linear_PDE_1D_state.h5';
 fem_matrices1d = 'fem_matrices/fem_matrices_2023-07-09T133851_linear_PDE_1D.mat';
 
+path_unl1d = 'h5files/HJDQN_2023-09-10T063458_uncontrolled_nonlinear_PDE_1D_state.h5';
+fem_matricesnl1d = 'fem_matrices/fem_matrices_2023-09-10T063458_nonlinear_PDE_1D.mat';
+
 path_model1d = 'h5files/Linear1dPDEEnv-v0/HJDQN_2023-07-18T134204_0_27775.pth.tar_state.h5';
 path_model2d = 'h5files/Linear2dPDEEnv-v0/HJDQN_2023-07-24T101201_0_15554.pth.tar_state.h5';
+path_modelNl1d = 'h5files/NonLinearPDEEnv-v0/HJDQN_2023-09-20T131710_0_19998.pth.tar_state.h5';
 
 % subplot(1,2,1);
 % h5_visualizer(path_c1d,2,1);
 % subplot(1,2,2);
 % h5_visualizer(path_model2d,2,2);
+% 
+% l2error2d = calculateL2Error(path_c2d, path_model2d, fem_matrices2d, 2, 2);
+% l2norm2d = l2norm(path_c2d, fem_matrices2d, 2, 2);
+% relativeError2d = l2error2d/l2norm2d;
+% 
+% l2error1d = calculateL2Error(path_c1d, path_model1d, fem_matrices1d, 2, 1);
+% l2norm1d = l2norm(path_c1d, fem_matrices1d, 2, 1);
+% relativeError1d = l2error1d/l2norm1d;
+%
+%h5_visualizer(path_unl1d,2,1);
+%h5_visualizer(path_modelNl1d,2,1);
+%l2normnl1d = l2norm(path_unl1d, fem_matricesnl1d, 2, 1);
+%l2normnl1d = l2norm(path_modelNl1d, fem_matricesnl1d, 2, 1);
 
-l2error = calculateL2Error(path_c2d, path_model2d, fem_matrices2d, 2, 2);
+function [l2Norm] = l2norm(filename, fem_matrices, T_end, dim)
+
+    % Output argument.
+    l2Norm = 0;
+
+    % Function Information.
+    data_functions = h5info(filename,"/Function/y_n");
+    y_n_names = data_functions.Datasets;
+    
+    % Time interval Information.
+    num_steps = length(y_n_names) - 1;
+    T_full = 0:(T_end/num_steps):T_end;
+    
+    % Mesh information.
+    mesh = h5read(filename,strcat("/Mesh/mesh/","geometry"));
+
+    % Get mass matrix and time increment.
+    fem_components = load(fem_matrices);
+
+    M = fem_components.M;
+    dt = fem_components.dt;
+
+    % Set surface information.
+    Z = zeros(length(mesh),size(T_full,2));
+    
+    if dim == 1
+
+        for i = 1:size(T_full,2)
+        
+            Z(:,i) = h5read(filename,strcat("/Function/y_n/",y_n_names(i).Name)).';
+        
+        end
+    
+        Y = Z(2:end-1,:);
+    
+        l2Norm = sqrt(sum(sum(dt*(Y)'*M*(Y),1),2));
+
+    end
+
+    if dim == 2
+
+        deleteRows = fem_components.deleteRows+1;
+
+        for i = 1:size(T_full,2)
+        
+            Z(:,i) = h5read(filename,strcat("/Function/y_n/",y_n_names(i).Name)).';
+        
+        end
+    
+        Z(deleteRows,:) = [];
+        
+        l2Norm = sqrt(sum(sum(dt*Z'*M*Z,1),2));
+
+    end
+
+
+end
 
 function [] = h5_visualizer(filename,T_end,dim,T_int,limz,az,sec)
 

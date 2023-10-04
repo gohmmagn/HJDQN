@@ -6,7 +6,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="pde-state-solution-folder"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="/My Drive/Github/HJDQN/HJQ/outputs/Linear2dPDEEnv-v0/HJDQN_2023-07-28T175507/pde_solutions"/>
+            <entry key="value" type="xstring" value="/My Drive/Github/HJDQN/outputs/NonLinearPDEEnv-v0/HJDQN_2023-09-20T131710/pde_solutions"/>
         </config>
     </config>
     <config key="internal_node_subsettings">

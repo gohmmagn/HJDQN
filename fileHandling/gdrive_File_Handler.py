@@ -13,26 +13,38 @@ class gdriveFileHandler():
        self.envId = envId
        self.mainDirectory = path.dirname(path.dirname(__file__))
 
-    def mergeEvallogs(self, modelName, parFileId):
-        evallog_diretory_path = "outputs/{}/{}/eval_log".format(self.envId, modelName)
-        evallogFiles = []
-        for evallogFile in os.listdir(evallog_diretory_path):
-          evallogFiles.append(evallogFile)
-        evallogFiles.remove("fileDirectory.json")
-        evallogArgs = [[evallogFile, re.split('_|[.]', evallogFile)] for evallogFile in evallogFiles]
-        index = [int(evallogArg[1][-2]) for evallogArg in evallogArgs]
-        combined = list(zip(index, evallogArgs))
+    def mergeLogs(self, modelName, logType, parFileId):
+        log_diretory_path = "outputs/{}/{}/{}".format(self.envId, modelName, logType)
+        logFiles = []
+        for logFile in os.listdir(log_diretory_path):
+            logFiles.append(logFile)
+        logFiles.remove("fileDirectory.json")
+        logArgs = [[logFile, re.split('_|[.]', logFile)] for logFile in logFiles]
+        index = [int(logArg[1][-2]) for logArg in logArgs]
+        combined = list(zip(index, logArgs))
         combined.sort(key=lambda x: x[0])
-        evallogArgs = [x[1] for x in combined]
-        evallogs = [evallogArg[0] for evallogArg in evallogArgs if evallogArg[1][2]==str(parFileId)]
-        total_evallog_path = min(evallogs, key=len)
-        df = pd.read_csv(path.join(evallog_diretory_path,evallogs[0]), header=None)
-        for i in range(1,len(evallogs)):
-          data = pd.read_csv(path.join(evallog_diretory_path,evallogs[i]), header=None)
-          df = pd.concat([df, data], axis=0)
-        df.to_csv(path.join(evallog_diretory_path, total_evallog_path), index=False)
-        for i in range(1,len(evallogs)):
-          os.remove(path.join(evallog_diretory_path,evallogs[i]))
+        logArgs = [x[1] for x in combined]
+        logs = [logArg[0] for logArg in logArgs if logArg[1][2]==str(parFileId)]
+        if len(logs) > 1:
+            total_log_path = min(logs, key=len)
+            try:
+                df = pd.read_csv(path.join(log_diretory_path,logs[0]), header=None)
+            except pd.errors.EmptyDataError:
+                df = pd.DataFrame()
+            for i in range(1,len(logs)):
+                try:
+                    data = pd.read_csv(path.join(log_diretory_path,logs[i]), header=None)
+                    df = pd.concat([df, data], axis=0)
+                except pd.errors.EmptyDataError:
+                    pass
+            df.to_csv(path.join(log_diretory_path, total_log_path), index=False, header=None)
+            for i in range(1,len(logs)):
+                os.remove(path.join(log_diretory_path,logs[i]))
+
+    def checkForParameterFiles(self, modelName):
+        parameter_directory_path = "outputs/{}/{}/parameter".format(self.envId, modelName)
+        parFileCount = len(os.listdir(parameter_directory_path))
+        return parFileCount
 
     def getModelsOfEnvironment(self):
         environment_folder_path = "outputs/{}".format(self.envId)
@@ -41,6 +53,13 @@ class gdriveFileHandler():
           ls.append(filefolder)
         df_files = pd.DataFrame(ls, columns = ['Model name'])
         return df_files
+
+    def mergeAllLogsOfEnvironment(self):
+        df_modelNames = self.getModelsOfEnvironment()
+        for i in range(0,df_modelNames.shape[0]):
+            for j in range(0,self.checkForParameterFiles(df_modelNames['Model name'][i])):
+                self.mergeLogs(df_modelNames['Model name'][i], 'eval_log', j)
+                self.mergeLogs(df_modelNames['Model name'][i], 'train_log', j)
 
     def getRicattiSolutionFiles(self):
         env_data_ricatti_solution_path = "gym_lqr/gym_lqr/envs/data/Ricatti_solution_matrices"

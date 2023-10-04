@@ -6,7 +6,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="gym-lqr-ricatti-solution-matrices-folder"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="/My Drive/Github/HJDQN/HJQ/gym_lqr/gym_lqr/envs/data/Ricatti_solution_matrices"/>
+            <entry key="value" type="xstring" value="/My Drive/Github/HJDQN/gym_lqr/gym_lqr/envs/data/Ricatti_solution_matrices"/>
         </config>
     </config>
     <config key="internal_node_subsettings">

@@ -3,14 +3,12 @@ import importlib
 import gymnasium as gym
 from gymnasium import spaces
 import numpy as np
-import os
-from os import path
-import shutil
-from numpy.linalg import norm, inv
 
 import dolfinx
 import ufl
 from mpi4py import MPI
+import petsc4py
+petsc4py.init()
 from petsc4py import PETSc
 from dolfinx import mesh, fem, io, nls, log
 from dolfinx.fem import petsc as femPetsc
@@ -22,7 +20,8 @@ class NonLinearPDEEnv(gym.Env):
     def __init__(self, render_mode=None, T=2.0, time_steps=200, useExactSolution=False ,useMatCARE=False, Kpath='empty'):
         super(NonLinearPDEEnv, self).__init__()
 
-        # Set default env variables.-----------------------------------------------------------------------------------------
+        # Set default env variables -----------------------------------------------------------------------------------------
+
         self.useExactSolution = useExactSolution
         self.useMatCARE = useMatCARE
         self.acctuator = 'empty'
@@ -56,7 +55,7 @@ class NonLinearPDEEnv(gym.Env):
         #-----------------------------------------------------------------------------------------------------------------
 
         # Iteration variables --------------------------------------------------------------------------------------------
-            
+
         # Create initial condition for the state function and interpolate it in V.
 
         #class Initial_condition():
@@ -99,10 +98,15 @@ class NonLinearPDEEnv(gym.Env):
         for i, acct in enumerate(acctuatorDomains):
           self.I_w[i].interpolate(lambda x: np.where(np.logical_and(x[0] - acct[0] +tol >= 0, acct[1] + tol - x[0] >= 0), 1, 0))
 
+        acctuator = np.array([self.I_w[0].x.array])
+        for i in range(1,len(self.I_w)):
+          acctuator = np.r_[acctuator, [self.I_w[i].x.array]]
+        self.acctuator = acctuator
+
         #-----------------------------------------------------------------------------------------------------------------
 
         # Trial and test functions.---------------------------------------------------------------------------------------
-        y_trial, phi = ufl.TrialFunction(self.V), ufl.TestFunction(self.V)
+        self.y_trial, self.phi = ufl.TrialFunction(self.V), ufl.TestFunction(self.V)
 
         #-----------------------------------------------------------------------------------------------------------------
 
@@ -114,35 +118,20 @@ class NonLinearPDEEnv(gym.Env):
         self.L = self.us[0]*self.I_w[0]
         for i in range(1,len(self.us)):
           self.L = self.L + self.us[i]*self.I_w[i]
-        self.L = (self.y_0 + self.dt*self.L)*phi*ufl.dx
+        self.L = (self.y_0 + self.dt*self.L)*self.phi*ufl.dx
+
+        #-----------------------------------------------------------------------------------------------------------------
 
         # Variational form a_h--------------------------------------------------------------------------------------------
-        self.a_h = self.y_n*phi*ufl.dx + self.nu*self.dt*ufl.dot(ufl.grad(self.y_n),ufl.grad(phi))*ufl.dx - self.dt*self.y_n*(1-self.y_n**2)*phi*ufl.dx - self.L
 
-        # Create solver.
-        self.problem = femPetsc.NonlinearProblem(self.a_h, self.y_n)
-        self.solver = nlsPetsc.NewtonSolver(MPI.COMM_WORLD, self.problem)
-        self.solver.convergence_criterion = "incremental"
-        self.solver.rtol = 1e-3
-        self.solver.atol = 0.0
-        self.solver.report = False
-        self.solver.max_it = 1000
-        self.solver.error_on_nonconvergence = False
+        self.a_h = self.y_n*self.phi*ufl.dx + self.nu*self.dt*ufl.dot(ufl.grad(self.y_n),ufl.grad(self.phi))*ufl.dx - self.dt*self.y_n*(1-self.y_n**2)*self.phi*ufl.dx - self.L
 
-        self.ksp = self.solver.krylov_solver
-        self.opts = PETSc.Options()
-        self.option_prefix = self.ksp.getOptionsPrefix()
-        self.opts[f"{self.option_prefix}ksp_type"] = "cg"
-        self.opts[f"{self.option_prefix}pc_type"] = "gamg"
-        self.opts[f"{self.option_prefix}pc_factor_mat_solver_type"] = "mumps"
-        self.ksp.setFromOptions()
-        
         #-----------------------------------------------------------------------------------------------------------------
 
         # Cost functional matrices ---------------------------------------------------------------------------------------
 
         # Mass matrix.
-        mass_form = y_trial*phi*ufl.dx
+        mass_form = self.y_trial*self.phi*ufl.dx
         M_dx = femPetsc.assemble_matrix(fem.form(mass_form))
         M_dx.assemble()
         M_dx.convert("dense")
@@ -157,7 +146,7 @@ class NonLinearPDEEnv(gym.Env):
         # Matrices and coefficients for the reward function r = alpha*y'*Q*y + beta*u'*R*u.
         self.alpha = 1.
         self.beta = 0.01
-        self.Q = self.M
+        self.Q = self.alpha*self.M
         self.R = self.beta*np.eye(self.m)
 
         #-----------------------------------------------------------------------------------------------------------------
@@ -166,26 +155,30 @@ class NonLinearPDEEnv(gym.Env):
 
         self.initial_action = np.zeros((len(acctuatorDomains),))
 
-        # Action and state spaces.----------------------------------------------------------------------------------------
+        # Action and state spaces ----------------------------------------------------------------------------------------
 
-        # Random sampling from the action space : $U[-1, 1)$.
+        # Random sampling from the action space : $U[a, b)$.
+        
         self.action_space = spaces.Box(
-            low=-0.1,
-            high=0.1, shape=(self.m,),
+            low=-1000.0,
+            high=1000.0, shape=(self.m,),
             dtype=np.float64
         )
         self.observation_space = spaces.Box(
-            low=-np.inf,
-            high=np.inf, shape=(self.n,),
+            low=-1000.0,
+            high=1000.0, shape=(self.n,),
             dtype=np.float64
         )
 
-        # State solution variables. 
+        #-----------------------------------------------------------------------------------------------------------------
+
+        # State solution variables ---------------------------------------------------------------------------------------
+
         self.x = None
 
     def step(self, u):
-
-        # Quadratic cost function x^T Q x + u^T R u.
+    
+        # Quadratic cost function alpha*x'*Q*x + beta*u'*R*u.
         costs = np.sum(np.dot(np.matmul(np.transpose(self.x),self.Q),self.x)) + np.sum(np.dot(np.matmul(np.transpose(u),self.R),u))
 
         # Update coefficients of control vector.
@@ -193,10 +186,29 @@ class NonLinearPDEEnv(gym.Env):
         for i in range(0,len(self.us)):
           self.us[i].value = uls[i]
 
+        # Variational form a_h.
+        self.a_h = self.y_n*self.phi*ufl.dx + self.nu*self.dt*ufl.dot(ufl.grad(self.y_n),ufl.grad(self.phi))*ufl.dx - self.dt*self.y_n*(1-self.y_n**2)*self.phi*ufl.dx - self.L
+
+        # Create solver.
+        problem = femPetsc.NonlinearProblem(self.a_h, self.y_n)
+        solver = nlsPetsc.NewtonSolver(MPI.COMM_WORLD, problem)
+        solver.convergence_criterion = "incremental"
+        solver.rtol = 1e-6
+        solver.report = False
+        solver.error_on_nonconvergence = False
+
+        ksp = solver.krylov_solver
+        opts = PETSc.Options()
+        option_prefix = ksp.getOptionsPrefix()
+        opts[f"{option_prefix}ksp_type"] = "cg"
+        opts[f"{option_prefix}pc_type"] = "gamg"
+        opts[f"{option_prefix}pc_factor_mat_solver_type"] = "mumps"
+        ksp.setFromOptions()
+
         # Solve linear problem.
-        _, converged = self.solver.solve(self.y_n)
+        # log.set_log_level(log.LogLevel.INFO)
+        solver.solve(self.y_n)
         self.y_n.x.scatter_forward()
-        #assert(converged)
 
         # Update solution at previous time step.
         self.y_0.x.array[:] = self.y_n.x.array

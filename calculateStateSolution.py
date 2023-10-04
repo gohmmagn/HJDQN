@@ -10,10 +10,15 @@ from algorithms.hjdqn.hjdqn_agent import HJDQNAgent
 from algorithms.utils import set_log_dir, get_env_spec, scaled_env
 from algorithms.noise import IndependentGaussian, Zero, SDE
 import gym_lqr
+import dolfinx
 import ufl
 from mpi4py import MPI
+import petsc4py
+petsc4py.init()
 from petsc4py import PETSc
-from dolfinx import fem, mesh, plot, io
+from dolfinx import mesh, fem, io, nls
+from dolfinx.fem import petsc as femPetsc
+from dolfinx.nls import petsc as nlsPetsc
 from numpy.linalg import norm
 import argparse
 
@@ -557,6 +562,9 @@ if args.envId=='NonLinearPDEEnv-v0':
   y_0.name = "y_0"
   y_0.interpolate(initial_condition)
 
+  # Test function.
+  phi = ufl.TestFunction(V)
+
   # PDE coefficients
   nu = 0.1
 
@@ -597,8 +605,8 @@ if args.envId=='NonLinearPDEEnv-v0':
   a_h = y_n*phi*ufl.dx + nu*dt*ufl.dot(ufl.grad(y_n),ufl.grad(phi))*ufl.dx - dt*y_n*(1-y_n**2)*phi*ufl.dx - L
 
   # Create solver.
-  problem = fem.petsc.NonlinearProblem(a_h, y_n)
-  solver = nls.petsc.NewtonSolver(MPI.COMM_WORLD, problem)
+  problem = femPetsc.NonlinearProblem(a_h, y_n)
+  solver = nlsPetsc.NewtonSolver(MPI.COMM_WORLD, problem)
   solver.convergence_criterion = "incremental"
   solver.rtol = 1e-6
   solver.report = True

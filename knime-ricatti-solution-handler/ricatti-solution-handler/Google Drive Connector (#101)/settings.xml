@@ -6,7 +6,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="mainProjectDirectoryGDrive"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="/My Drive/Github/HJDQN/HJQ"/>
+            <entry key="value" type="xstring" value="/My Drive/Github/HJDQN"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -17,7 +17,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="workingDirectory" type="xstring" value="/My Drive/Github/HJDQN/HJQ"/>
+        <entry key="workingDirectory" type="xstring" value="/My Drive/Github/HJDQN"/>
         <config key="connectionTimeout_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>

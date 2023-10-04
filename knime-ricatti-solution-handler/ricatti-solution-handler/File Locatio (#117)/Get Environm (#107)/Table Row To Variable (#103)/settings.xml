@@ -27,9 +27,10 @@
             <entry key="name" type="xstring" value="Environment name"/>
             <entry key="class" type="xstring" value="STRINGARRAY"/>
             <config key="value">
-                <entry key="array-size" type="xint" value="2"/>
+                <entry key="array-size" type="xint" value="3"/>
                 <entry key="0" type="xstring" value="Linear1dPDEEnv-v0"/>
                 <entry key="1" type="xstring" value="Linear2dPDEEnv-v0"/>
+                <entry key="2" type="xstring" value="NonLinearPDEEnv-v0"/>
             </config>
         </config>
     </config>
@@ -113,11 +114,11 @@
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="5.1.0.v202307121227"/>
+    <entry key="node-bundle-version" type="xstring" value="5.1.1.v202308221556"/>
     <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.1.0.v202307121227"/>
+    <entry key="node-feature-version" type="xstring" value="5.1.1.v202308221556"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Table Row To Variable"/>
     <entry key="hasContent" type="xboolean" value="false"/>

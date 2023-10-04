@@ -13,5 +13,6 @@
         <port name="Port 4"/>
         <port name="Port 5"/>
         <port name="Port 6"/>
+        <port name="Port 7"/>
     </out-ports>
 </component-metadata>

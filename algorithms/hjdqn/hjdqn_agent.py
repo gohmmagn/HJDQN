@@ -110,8 +110,10 @@ class HJDQNAgent:
             # compute increment of action
             if self.smooth:
                 a_dot = (self.h * self.L * torch.tanh(n / self.L) / (n + 1e-8)) * dq
+                #a_dot = self.h * torch.tanh(1) * dq
             else:
                 a_dot = (self.h * self.L / (n + 1e-8)) * dq
+                #a_dot = self.h * dq
         a_dot = a_dot.cpu().detach().numpy()
         a_dot = a_dot.reshape(action.shape)
 

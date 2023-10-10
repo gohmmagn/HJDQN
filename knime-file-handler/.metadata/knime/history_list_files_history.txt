@@ -1,0 +1,10 @@
+C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ\outputs
+/My Drive/Github/HJDQN/outputs
+C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ\matlab\h5files\NonLinearPDEEnv-v0
+C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ\matlab\h5files\Linear2dPDEEnv-v0
+C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ\matlab\h5files
+/My Drive/Github/HJDQN/HJQ/pde_outputs/pde_solutions
+/My Drive/Github/HJDQN/HJQ/pde_outputs/ricatti_solution_matrices
+C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ\matlab\riccati_solution_matrices
+C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ\matlab\fem_matrices
+/My Drive/Github/HJDQN/HJQ/pde_outputs/fem_matrices

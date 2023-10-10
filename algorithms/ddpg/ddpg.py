@@ -69,6 +69,9 @@ def run_ddpg(env_id,
     env = gym.make(env_id, render_mode='human', T=T, time_steps=time_steps, useExactSolution=useExactSolution, useMatCARE=useMatCARE, Kpath=Kpath)
     test_env = gym.make(env_id, render_mode='human', T=T, time_steps=time_steps, useExactSolution=useExactSolution, useMatCARE=useMatCARE, Kpath=Kpath)
 
+    env.unwrapped._max_episode_steps = time_steps
+    test_env.unwrapped._max_episode_steps = time_steps
+
     acctuator = env.unwrapped.acctuator
     resortIndex = env.unwrapped.resortIndex
 

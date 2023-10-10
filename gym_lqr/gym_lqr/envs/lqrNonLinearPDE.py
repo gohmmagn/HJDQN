@@ -128,6 +128,25 @@ class NonLinearPDEEnv(gym.Env):
 
         #-----------------------------------------------------------------------------------------------------------------
 
+        # Create solver---------------------------------------------------------------------------------------------------
+
+        self.problem = femPetsc.NonlinearProblem(self.a_h, self.y_n)
+        self.solver = nlsPetsc.NewtonSolver(MPI.COMM_WORLD, self.problem)
+        self.solver.convergence_criterion = "incremental"
+        self.solver.rtol = 1e-6
+        self.solver.report = False
+        self.solver.error_on_nonconvergence = False
+
+        self.ksp = self.solver.krylov_solver
+        self.opts = PETSc.Options()
+        self.option_prefix = self.ksp.getOptionsPrefix()
+        self.opts[f"{self.option_prefix}ksp_type"] = "cg"
+        self.opts[f"{self.option_prefix}pc_type"] = "gamg"
+        self.opts[f"{self.option_prefix}pc_factor_mat_solver_type"] = "mumps"
+        self.ksp.setFromOptions()
+        
+        #-----------------------------------------------------------------------------------------------------------------
+
         # Cost functional matrices ---------------------------------------------------------------------------------------
 
         # Mass matrix.
@@ -174,7 +193,7 @@ class NonLinearPDEEnv(gym.Env):
 
         # State solution variables ---------------------------------------------------------------------------------------
 
-        self.x = None
+        self.x = self.y_0.x.array
 
     def step(self, u):
     
@@ -186,28 +205,8 @@ class NonLinearPDEEnv(gym.Env):
         for i in range(0,len(self.us)):
           self.us[i].value = uls[i]
 
-        # Variational form a_h.
-        self.a_h = self.y_n*self.phi*ufl.dx + self.nu*self.dt*ufl.dot(ufl.grad(self.y_n),ufl.grad(self.phi))*ufl.dx - self.dt*self.y_n*(1-self.y_n**2)*self.phi*ufl.dx - self.L
-
-        # Create solver.
-        problem = femPetsc.NonlinearProblem(self.a_h, self.y_n)
-        solver = nlsPetsc.NewtonSolver(MPI.COMM_WORLD, problem)
-        solver.convergence_criterion = "incremental"
-        solver.rtol = 1e-6
-        solver.report = False
-        solver.error_on_nonconvergence = False
-
-        ksp = solver.krylov_solver
-        opts = PETSc.Options()
-        option_prefix = ksp.getOptionsPrefix()
-        opts[f"{option_prefix}ksp_type"] = "cg"
-        opts[f"{option_prefix}pc_type"] = "gamg"
-        opts[f"{option_prefix}pc_factor_mat_solver_type"] = "mumps"
-        ksp.setFromOptions()
-
         # Solve linear problem.
-        # log.set_log_level(log.LogLevel.INFO)
-        solver.solve(self.y_n)
+        self.solver.solve(self.y_n)
         self.y_n.x.scatter_forward()
 
         # Update solution at previous time step.
@@ -220,14 +219,8 @@ class NonLinearPDEEnv(gym.Env):
     def reset(self, seed=None, options={}):
         super().reset(seed=seed)
 
-        self.y_0 = fem.Function(self.V)
-        self.y_0.name = "y_0"
         self.y_0.interpolate(self.initial_condition)
-
-        self.y_n = fem.Function(self.V)
-        self.y_n.name = "y_n"
         self.y_n.interpolate(self.initial_condition)
-
         self.x = self.y_0.x.array
 
         return np.copy(self.x), {}

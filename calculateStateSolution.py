@@ -7,6 +7,7 @@ import json
 import pandas as pd
 import gymnasium as gym
 from algorithms.hjdqn.hjdqn_agent import HJDQNAgent
+from algorithms.ddpg.ddpg_agent import DDPGAgent
 from algorithms.utils import set_log_dir, get_env_spec, scaled_env
 from algorithms.noise import IndependentGaussian, Zero, SDE
 import gym_lqr
@@ -23,11 +24,13 @@ from numpy.linalg import norm
 import argparse
 
 parser = argparse.ArgumentParser()
+parser.add_argument('--algo', required=False, choices=['hjdqn', 'ddpg'], default='hjdqn')
 parser.add_argument('--envId', required=True)
 parser.add_argument('--modelName', required=True)
 parser.add_argument('--savedModel', required=True)
 
 args = parser.parse_args()
+algo = args.algo
 pdeSolutions_directory_path = "outputs/{}/{}/pde_solutions".format(args.envId, args.modelName)
 parameter_directory_path = "outputs/{}/{}/parameter".format(args.envId, args.modelName)
 checkpoints_diretory_path = "outputs/{}/{}/checkpoints".format(args.envId, args.modelName)
@@ -65,10 +68,12 @@ T = float(getPar('T'))
 time_steps = int(getPar('time_steps'))
 gamma = float(getPar('gamma')) 
 lr = float(getPar('lr'))
+actor_lr = float(getPar('actor_lr'))
+critic_lr = float(getPar('critic_lr'))
 sigma = float(getPar('sigma'))
 polyak = float(getPar('polyak'))
-hidden1 = int(getPar('hidden1'))
-hidden2 = int(getPar('hidden2'))
+hidden1 = int(getPar('hidden_size1'))
+hidden2 = int(getPar('hidden_size2'))
 buffer_size = int(float(getPar('buffer_size')))
 batch_size = int(getPar('batch_size'))
 smooth = getPar('smooth')=='True'
@@ -230,22 +235,43 @@ if args.envId=='Linear1dPDEEnv-v0':
   solver.getPC().setType(PETSc.PC.Type.LU)
   
   # Create agent.
-  agent = HJDQNAgent(dimS, dimA, ctrl_range,
-                   gamma,
-                   h, Lc, sigma,
-                   verboseLoopTraining,
-                   model,
-                   acctuator,
-                   resortIndex,
-                   lr,
-                   polyak,
-                   buffer_size,
-                   batch_size,
-                   smooth=smooth,
-                   device=device,
-                   double=double,
-                   render=render,
-                   scale_factor=h_scale)
+  if algo == 'ddpg':
+     agent = DDPGAgent(dimS,
+                       dimA,
+                       ctrl_range,
+                       gamma=gamma,
+                       actor_lr=actor_lr,
+                       critic_lr=critic_lr,
+                       polyak=polyak,
+                       sigma=sigma,
+                       verboseLoopTraining=verboseLoopTraining,
+                       model=model,
+                       hidden1=hidden1,
+                       hidden2=hidden2,
+                       acctuator=acctuator,
+                       resortIndex=resortIndex,
+                       buffer_size=buffer_size,
+                       batch_size=batch_size,
+                       h_scale=h_scale,
+                       device=device,
+                       render=render)
+  elif algo == 'hjdqn':
+       agent = HJDQNAgent(dimS, dimA, ctrl_range,
+                          gamma,
+                          h, Lc, sigma,
+                          verboseLoopTraining,
+                          model,
+                          acctuator,
+                          resortIndex,
+                          lr,
+                          polyak,
+                          buffer_size,
+                          batch_size,
+                          smooth=smooth,
+                          device=device,
+                          double=double,
+                          render=render,
+                          scale_factor=h_scale)
 
   # Load model and set resume training option.
   agent.load_model(path.join(checkpoints_diretory_path, args.savedModel),resumeTraining=True)
@@ -260,7 +286,10 @@ if args.envId=='Linear1dPDEEnv-v0':
     t += dt
 
     # Control vector.
-    action = agent.get_action(state, action, noise)
+    if algo =='hjdqn':
+       action = agent.get_action(state, action, noise)
+    elif algo == 'ddpg':
+       action = agent.get_action(state, eval=False)
     control = action.tolist()
 
     # Update coefficients of control vector.
@@ -458,22 +487,43 @@ if args.envId=='Linear2dPDEEnv-v0':
   solver.getPC().setType(PETSc.PC.Type.LU)
   
   # Create agent.
-  agent = HJDQNAgent(dimS, dimA, ctrl_range,
-                   gamma,
-                   h, Lc, sigma,
-                   verboseLoopTraining,
-                   model,
-                   acctuator,
-                   resortIndex,
-                   lr,
-                   polyak,
-                   buffer_size,
-                   batch_size,
-                   smooth=smooth,
-                   device=device,
-                   double=double,
-                   render=render,
-                   scale_factor=h_scale)
+  if algo == 'ddpg':
+     agent = DDPGAgent(dimS,
+                       dimA,
+                       ctrl_range,
+                       gamma=gamma,
+                       actor_lr=actor_lr,
+                       critic_lr=critic_lr,
+                       polyak=polyak,
+                       sigma=sigma,
+                       verboseLoopTraining=verboseLoopTraining,
+                       model=model,
+                       hidden1=hidden1,
+                       hidden2=hidden2,
+                       acctuator=acctuator,
+                       resortIndex=resortIndex,
+                       buffer_size=buffer_size,
+                       batch_size=batch_size,
+                       h_scale=h_scale,
+                       device=device,
+                       render=render)
+  elif algo == 'hjdqn':
+       agent = HJDQNAgent(dimS, dimA, ctrl_range,
+                          gamma,
+                          h, Lc, sigma,
+                          verboseLoopTraining,
+                          model,
+                          acctuator,
+                          resortIndex,
+                          lr,
+                          polyak,
+                          buffer_size,
+                          batch_size,
+                          smooth=smooth,
+                          device=device,
+                          double=double,
+                          render=render,
+                          scale_factor=h_scale)
 
   # Load model and set resume training option.
   agent.load_model(path.join(checkpoints_diretory_path, args.savedModel),resumeTraining=True)
@@ -488,7 +538,10 @@ if args.envId=='Linear2dPDEEnv-v0':
     t += dt
 
     # Control vector.
-    action = agent.get_action(state, action, noise)
+    if algo =='hjdqn':
+       action = agent.get_action(state, action, noise)
+    elif algo == 'ddpg':
+       action = agent.get_action(state, eval=False)
     control = action.tolist()
 
     # Update coefficients of control vector.
@@ -618,24 +671,45 @@ if args.envId=='NonLinearPDEEnv-v0':
   opts[f"{option_prefix}pc_type"] = "gamg"
   opts[f"{option_prefix}pc_factor_mat_solver_type"] = "mumps"
   ksp.setFromOptions()
-  
+
   # Create agent.
-  agent = HJDQNAgent(dimS, dimA, ctrl_range,
-                   gamma,
-                   h, Lc, sigma,
-                   verboseLoopTraining,
-                   model,
-                   acctuator,
-                   resortIndex,
-                   lr,
-                   polyak,
-                   buffer_size,
-                   batch_size,
-                   smooth=smooth,
-                   device=device,
-                   double=double,
-                   render=render,
-                   scale_factor=h_scale)
+  if algo == 'ddpg':
+     agent = DDPGAgent(dimS,
+                       dimA,
+                       ctrl_range,
+                       gamma=gamma,
+                       actor_lr=actor_lr,
+                       critic_lr=critic_lr,
+                       polyak=polyak,
+                       sigma=sigma,
+                       verboseLoopTraining=verboseLoopTraining,
+                       model=model,
+                       hidden1=hidden1,
+                       hidden2=hidden2,
+                       acctuator=acctuator,
+                       resortIndex=resortIndex,
+                       buffer_size=buffer_size,
+                       batch_size=batch_size,
+                       h_scale=h_scale,
+                       device=device,
+                       render=render)
+  elif algo == 'hjdqn':
+       agent = HJDQNAgent(dimS, dimA, ctrl_range,
+                          gamma,
+                          h, Lc, sigma,
+                          verboseLoopTraining,
+                          model,
+                          acctuator,
+                          resortIndex,
+                          lr,
+                          polyak,
+                          buffer_size,
+                          batch_size,
+                          smooth=smooth,
+                          device=device,
+                          double=double,
+                          render=render,
+                          scale_factor=h_scale)
 
   # Load model and set resume training option.
   agent.load_model(path.join(checkpoints_diretory_path, args.savedModel),resumeTraining=True)
@@ -650,7 +724,10 @@ if args.envId=='NonLinearPDEEnv-v0':
     t += dt
 
     # Control vector.
-    action = agent.get_action(state, action, noise)
+    if algo =='hjdqn':
+       action = agent.get_action(state, action, noise)
+    elif algo == 'ddpg':
+       action = agent.get_action(state, eval=False)
     control = action.tolist()
 
     # Update coefficients of control vector.

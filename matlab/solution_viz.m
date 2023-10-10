@@ -11,7 +11,7 @@ fem_matricesnl1d = 'fem_matrices/fem_matrices_2023-09-10T063458_nonlinear_PDE_1D
 
 path_model1d = 'h5files/Linear1dPDEEnv-v0/HJDQN_2023-07-18T134204_0_27775.pth.tar_state.h5';
 path_model2d = 'h5files/Linear2dPDEEnv-v0/HJDQN_2023-07-24T101201_0_15554.pth.tar_state.h5';
-path_modelNl1d = 'h5files/NonLinearPDEEnv-v0/HJDQN_2023-09-20T131710_0_19998.pth.tar_state.h5';
+path_modelNl1d = 'h5files/NonLinearPDEEnv-v0/HJDQN_2023-10-10T115414_0_11110.pth.tar_state.h5';
 
 % subplot(1,2,1);
 % h5_visualizer(path_c1d,2,1);
@@ -27,7 +27,8 @@ path_modelNl1d = 'h5files/NonLinearPDEEnv-v0/HJDQN_2023-09-20T131710_0_19998.pth
 % relativeError1d = l2error1d/l2norm1d;
 %
 %h5_visualizer(path_unl1d,2,1);
-%h5_visualizer(path_modelNl1d,2,1);
+h5_visualizer(path_modelNl1d,4,1);
+%
 %l2normnl1d = l2norm(path_unl1d, fem_matricesnl1d, 2, 1);
 %l2normnl1d = l2norm(path_modelNl1d, fem_matricesnl1d, 2, 1);
 

@@ -22671,3 +22671,53 @@ Caused by: java.net.SocketException: Connection reset
 2023-10-24 22:19:21,712 : WARN  : main :  : Node : List Files/Folders : 3:69:0:82:68 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solution-matrices-matlab-folder-path_location"
 2023-10-24 22:22:01,269 : WARN  : KNIME-Worker-299-Component Input 3:65:0:73 :  : Node : List Files/Folders : 3:65:0:5 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solutions-folder-gdrive_location"
 2023-10-24 22:22:01,269 : WARN  : KNIME-Worker-299-Component Input 3:65:0:73 :  : Node : List Files/Folders : 3:65:0:4 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-folder-gdrive_location"
+2023-11-19 15:48:36,832 : WARN  : ModalContext :  : Node : Google Drive Connector : 3:101 : Connection no longer available. Please re-execute the node.
+2023-11-19 15:48:37,067 : WARN  : ModalContext :  : Node : Local File System Connector : 3:117:0:124 : Connection no longer available. Please re-execute the node.
+2023-11-19 15:48:37,069 : WARN  : ModalContext :  : Node : Local File System Connector : 3:117:0:62 : Connection no longer available. Please re-execute the node.
+2023-11-19 15:48:37,070 : WARN  : ModalContext :  : Node : Local File System Connector : 3:117:0:63 : Connection no longer available. Please re-execute the node.
+2023-11-19 15:48:37,071 : WARN  : ModalContext :  : Node : Local File System Connector : 3:117:0:102 : Connection no longer available. Please re-execute the node.
+2023-11-19 15:48:37,072 : WARN  : ModalContext :  : Node : Local File System Connector : 3:117:0:64 : Connection no longer available. Please re-execute the node.
+2023-11-19 15:48:37,164 : WARN  : ModalContext :  : Node : List Files/Folders : 3:120:0:118 : No connection available. Execute the connector node first.
+2023-11-19 15:48:37,166 : WARN  : ModalContext :  : Node : Variable To Table Row : 3:120:0:96 : No variables selected
+2023-11-19 15:48:37,168 : WARN  : ModalContext :  : Node : Variable To Table Row : 3:120:0:96 : No variables selected
+2023-11-19 15:48:37,809 : WARN  : ModalContext :  : Node : Files/Folders Meta Info : 3:120:0:112 : The selected column 'outputsFolderPath_location' is not part of the input
+2023-11-19 15:48:37,832 : WARN  : ModalContext :  : Node : List Files/Folders : 3:120:0:118 : No connection available. Execute the connector node first.
+2023-11-19 15:48:37,835 : WARN  : ModalContext :  : Node : Variable To Table Row : 3:120:0:96 : No variables selected
+2023-11-19 15:48:37,837 : WARN  : ModalContext :  : Node : Files/Folders Meta Info : 3:120:0:112 : The selected column 'outputsFolderPath_location' is not part of the input
+2023-11-19 15:48:38,050 : WARN  : ModalContext :  : Node : List Files/Folders : 3:69:0:82:72 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solutions-folder-gdrive_location"
+2023-11-19 15:48:38,057 : WARN  : ModalContext :  : Node : List Files/Folders : 3:69:0:82:72 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solutions-folder-gdrive_location"
+2023-11-19 15:48:38,058 : WARN  : ModalContext :  : Node : List Files/Folders : 3:69:0:82:68 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solution-matrices-matlab-folder-path_location"
+2023-11-19 15:48:38,059 : WARN  : ModalContext :  : Node : List Files/Folders : 3:69:0:82:68 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solution-matrices-matlab-folder-path_location"
+2023-11-19 15:48:38,148 : WARN  : ModalContext :  : Node : List Files/Folders : 3:69:0:82:72 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solutions-folder-gdrive_location"
+2023-11-19 15:48:38,149 : WARN  : ModalContext :  : Node : List Files/Folders : 3:69:0:82:68 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solution-matrices-matlab-folder-path_location"
+2023-11-19 15:48:38,364 : WARN  : ModalContext :  : Node : List Files/Folders : 3:98:0:109:76 : Errors overwriting node settings with flow variables: Unknown variable "Path"
+2023-11-19 15:48:38,365 : WARN  : ModalContext :  : Node : List Files/Folders : 3:98:0:109:76 : Errors overwriting node settings with flow variables: Unknown variable "Path"
+2023-11-19 15:48:38,483 : WARN  : ModalContext :  : Node : Variable To Table Row : 3:98:0:117:96 : No variables selected
+2023-11-19 15:48:38,483 : WARN  : ModalContext :  : Node : Variable To Table Row : 3:98:0:117:96 : No variables selected
+2023-11-19 15:48:38,483 : WARN  : ModalContext :  : Node : Files/Folders Meta Info : 3:98:0:117:112 : The selected column 'h5files-environment-folder_location' is not part of the input
+2023-11-19 15:48:38,484 : WARN  : ModalContext :  : Node : Files/Folders Meta Info : 3:98:0:117:112 : The selected column 'h5files-environment-folder_location' is not part of the input
+2023-11-19 15:48:38,489 : WARN  : ModalContext :  : Node : List Files/Folders : 3:98:0:109:76 : Errors overwriting node settings with flow variables: Unknown variable "Path"
+2023-11-19 15:48:38,491 : WARN  : ModalContext :  : Node : Variable To Table Row : 3:98:0:117:96 : No variables selected
+2023-11-19 15:48:38,491 : WARN  : ModalContext :  : Node : Files/Folders Meta Info : 3:98:0:117:112 : The selected column 'h5files-environment-folder_location' is not part of the input
+2023-11-19 15:48:38,562 : WARN  : ModalContext :  : Node : List Files/Folders : 3:74:0:70 : Errors overwriting node settings with flow variables: Unknown variable "pde-solutions-folder-gdrive_location"
+2023-11-19 15:48:38,563 : WARN  : ModalContext :  : Node : List Files/Folders : 3:74:0:70 : Errors overwriting node settings with flow variables: Unknown variable "pde-solutions-folder-gdrive_location"
+2023-11-19 15:48:38,565 : WARN  : ModalContext :  : Node : List Files/Folders : 3:74:0:70 : Errors overwriting node settings with flow variables: Unknown variable "pde-solutions-folder-gdrive_location"
+2023-11-19 15:48:42,687 : WARN  : main :  : Node : Google Authenticator : 3:3 : No valid credentials found. Please authenticate using the node dialog.
+2023-11-19 15:49:01,544 : WARN  : KNIME-Worker-4-Google Drive Connector 3:101 :  : Node : Table Row To Variable : 3:117:0:121 : No column selected only the RowID will be converted
+2023-11-19 15:49:01,822 : WARN  : KNIME-Worker-3-Component Input 3:117:0:123 :  : Node : Table Row To Variable : 3:117:0:121 : No column selected only the RowID will be converted
+2023-11-19 15:49:01,869 : WARN  : KNIME-Worker-3-Component Input 3:117:0:123 :  : Node : List Files/Folders : 3:117:0:107:0:66 : Errors overwriting node settings with flow variables: Unknown variable "outputs-folder_location"
+2023-11-19 15:49:01,872 : WARN  : KNIME-Worker-4-Component Input 3:117:0:107:0:109 :  : Node : List Files/Folders : 3:117:0:107:0:66 : Errors overwriting node settings with flow variables: Unknown variable "outputs-folder_location"
+2023-11-19 15:49:01,935 : WARN  : KNIME-Worker-1-String to Path (Variable) 3:117:0:107:0:106 :  : Node : GroupBy : 3:117:0:107:0:68 : No grouping column included. Aggregate complete table.
+2023-11-19 15:49:02,793 : WARN  : KNIME-Worker-8-String Manipulation 3:117:0:107:0:67 :  : Node : GroupBy : 3:117:0:107:0:68 : No grouping column included. Aggregate complete table.
+2023-11-19 15:49:02,814 : WARN  : KNIME-Worker-2-File Locations 3:117 :  : Node : Variable To Table Row : 3:120:0:96 : No variables selected
+2023-11-19 15:49:02,814 : WARN  : KNIME-Worker-2-File Locations 3:117 :  : Node : Files/Folders Meta Info : 3:120:0:112 : The selected column 'outputsFolderPath_location' is not part of the input
+2023-11-19 15:49:02,816 : WARN  : KNIME-Worker-2-File Locations 3:117 :  : Node : List Files/Folders : 3:69:0:82:72 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solutions-folder-gdrive_location"
+2023-11-19 15:49:02,817 : WARN  : KNIME-Worker-2-File Locations 3:117 :  : Node : List Files/Folders : 3:69:0:82:68 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solution-matrices-matlab-folder-path_location"
+2023-11-19 15:49:02,925 : WARN  : KNIME-Worker-2-File Locations 3:117 :  : Node : List Files/Folders : 3:65:0:5 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solutions-folder-gdrive_location"
+2023-11-19 15:49:02,926 : WARN  : KNIME-Worker-2-File Locations 3:117 :  : Node : List Files/Folders : 3:65:0:4 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-folder-gdrive_location"
+2023-11-19 15:49:02,929 : WARN  : KNIME-Worker-2-File Locations 3:117 :  : Node : List Files/Folders : 3:98:0:109:76 : Errors overwriting node settings with flow variables: Unknown variable "Path"
+2023-11-19 15:49:02,931 : WARN  : KNIME-Worker-2-File Locations 3:117 :  : Node : Variable To Table Row : 3:98:0:117:96 : No variables selected
+2023-11-19 15:49:02,931 : WARN  : KNIME-Worker-2-File Locations 3:117 :  : Node : Files/Folders Meta Info : 3:98:0:117:112 : The selected column 'h5files-environment-folder_location' is not part of the input
+2023-11-19 15:49:02,932 : WARN  : KNIME-Worker-2-File Locations 3:117 :  : Node : List Files/Folders : 3:74:0:70 : Errors overwriting node settings with flow variables: Unknown variable "pde-solutions-folder-gdrive_location"
+2023-11-19 15:49:29,966 : WARN  : KNIME-Worker-5-Component Input 3:65:0:73 :  : Node : List Files/Folders : 3:65:0:5 : Errors overwriting node settings with flow variables: Unknown variable "ricatti-solutions-folder-gdrive_location"
+2023-11-19 15:49:29,967 : WARN  : KNIME-Worker-5-Component Input 3:65:0:73 :  : Node : List Files/Folders : 3:65:0:4 : Errors overwriting node settings with flow variables: Unknown variable "fem-matrices-folder-gdrive_location"

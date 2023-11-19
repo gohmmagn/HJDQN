@@ -62,7 +62,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObjectSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="Local File System: 02c1e8ae-addc-409b-8f6b-03a90f65b0e0"/>
+            <entry key="port_object_summary" type="xstring" value="Local File System: ed79dbd1-b57c-47ca-8d7b-a45f76c53022"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -70,6 +70,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="342d0ba6-c8bf-4c4d-9005-dc2e06f3a859"/>
+        <entry key="file_store_id" type="xstring" value="44be19ff-2fd9-4841-9504-a828a0724f86"/>
     </config>
 </config>

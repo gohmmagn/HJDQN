@@ -230,7 +230,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObjectSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="Google Drive: 375a18ac-4e18-4ce8-8687-da2e20aac69f"/>
+            <entry key="port_object_summary" type="xstring" value="Google Drive: 0a66e3f2-d12a-4030-afc1-6fc40400c108"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -239,7 +239,7 @@
             <entry key="index" type="xint" value="2"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObjectSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="Local File System: a1ef852e-0883-4675-a8c4-ccf1f9a30903"/>
+            <entry key="port_object_summary" type="xstring" value="Local File System: f8c59779-7e5a-4e1b-aa7e-b7658d8c51d0"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_2"/>
@@ -247,6 +247,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="7d50ab1e-5d41-47e9-b06e-0ea1298c6d13"/>
+        <entry key="file_store_id" type="xstring" value="524dfba3-0bca-4218-ba50-93324d316ca4"/>
     </config>
 </config>

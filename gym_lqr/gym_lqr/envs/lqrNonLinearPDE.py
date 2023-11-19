@@ -50,7 +50,7 @@ class NonLinearPDEEnv(gym.Env):
         self.domain = mesh.create_interval(MPI.COMM_WORLD, self.nx, self.Omega)
 
         # Define test function space.
-        self.V = fem.functionSpace(self.domain, ("P", 1))
+        self.V = fem.functionspace(self.domain, ("P", 1))
 
         #-----------------------------------------------------------------------------------------------------------------
 

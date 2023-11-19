@@ -24,7 +24,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="number-of-ricatti-solutions"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="18"/>
+            <entry key="value" type="xint" value="3"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -137,6 +137,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="1dfa8d54-ed6c-473c-b178-6df1df66cf71"/>
+        <entry key="file_store_id" type="xstring" value="43b4a9a6-537b-48f9-aa18-17577905c0ac"/>
     </config>
 </config>

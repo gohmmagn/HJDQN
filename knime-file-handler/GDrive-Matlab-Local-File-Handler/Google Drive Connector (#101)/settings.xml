@@ -54,7 +54,7 @@
         <config key="styles"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.ext.google.filehandling.drive.node.GoogleDriveConnectionNodeFactory"/>
     <entry key="node-name" type="xstring" value="Google Drive Connector"/>
     <entry key="node-bundle-name" type="xstring" value="Google Drive filehandling extension for KNIME Workbench"/>
@@ -67,16 +67,21 @@
     <entry key="node-feature-version" type="xstring" value="5.1.0.v202307071418"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Google Drive Connector"/>
-    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Google Drive: 375a18ac-4e18-4ce8-8687-da2e20aac69f"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="6f90a0aa-37f5-48f8-ae33-b9e8197aaf96"/>
     </config>
 </config>

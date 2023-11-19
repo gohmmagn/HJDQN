@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
     <entry key="node_file" type="xstring" value="settings.xml"/>
-    <config key="flow_stack"/>
+    <config key="flow_stack">
+        <config key="Variable_0">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Environment name"/>
+            <entry key="class" type="xstring" value="STRINGARRAY"/>
+            <config key="value">
+                <entry key="array-size" type="xint" value="3"/>
+                <entry key="0" type="xstring" value="Linear1dPDEEnv-v0"/>
+                <entry key="1" type="xstring" value="Linear2dPDEEnv-v0"/>
+                <entry key="2" type="xstring" value="NonLinearPDEEnv-v0"/>
+            </config>
+        </config>
+        <config key="Variable_1">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Environment name default"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="Linear1dPDEEnv-v0"/>
+        </config>
+        <config key="Variable_2">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="mainProjectDirectoryGDrive"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="/My Drive/Github/HJDQN"/>
+        </config>
+        <config key="Variable_3">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Environment name"/>
+            <entry key="class" type="xstring" value="STRINGARRAY"/>
+            <config key="value">
+                <entry key="array-size" type="xint" value="3"/>
+                <entry key="0" type="xstring" value="Linear1dPDEEnv-v0"/>
+                <entry key="1" type="xstring" value="Linear2dPDEEnv-v0"/>
+                <entry key="2" type="xstring" value="NonLinearPDEEnv-v0"/>
+            </config>
+        </config>
+        <config key="Variable_4">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Environment name default"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="Linear1dPDEEnv-v0"/>
+        </config>
+        <config key="Variable_5">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="mainProjectDirectoryGDrive"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="/My Drive/Github/HJDQN"/>
+        </config>
+    </config>
     <config key="internal_node_subsettings">
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
@@ -22,7 +69,7 @@
         <config key="styles"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="workflow-file" type="xstring" value="workflow.knime"/>
     <entry key="virtual-in-ID" type="xint" value="109"/>
     <config key="inports">

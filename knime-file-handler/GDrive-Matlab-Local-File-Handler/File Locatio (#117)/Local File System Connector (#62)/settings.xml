@@ -42,7 +42,7 @@
         <config key="styles"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.filehandling.core.fs.local.node.LocalConnectorNodeFactory"/>
     <entry key="node-name" type="xstring" value="Local File System Connector"/>
     <entry key="node-bundle-name" type="xstring" value="Core NIO file systems that are always present"/>
@@ -55,16 +55,21 @@
     <entry key="node-feature-version" type="xstring" value="5.1.1.v202308221556"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Local File System Connector"/>
-    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Local File System: a1ef852e-0883-4675-a8c4-ccf1f9a30903"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="19dafd45-e702-429b-8464-eaba5743ddf9"/>
     </config>
 </config>

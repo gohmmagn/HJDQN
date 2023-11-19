@@ -59,7 +59,7 @@ class Linear2dPDEEnv(gym.Env):
         self.resortIndex = IY
 
         # Define test function space.
-        self.V = fem.FunctionSpace(self.domain, ("P", 1))
+        self.V = fem.functionSpace(self.domain, ("P", 1))
 
         # Define Dirichlet Boundary Condition. 
         fdim = self.domain.topology.dim - 1

@@ -115,7 +115,7 @@ if args.envId=='Linear1dPDEEnv-v0':
   domain = mesh.create_interval(MPI.COMM_WORLD, nx, Omega)
 
   # Define test function space.
-  V = fem.FunctionSpace(domain, ("P", 1))
+  V = fem.functionSpace(domain, ("P", 1))
 
   # Define Dirichlet Boundary Condition. 
   fdim = domain.topology.dim - 1
@@ -341,7 +341,7 @@ if args.envId=='Linear2dPDEEnv-v0':
   domain = mesh.create_unit_square(MPI.COMM_WORLD, nx, ny)
 
   # Define test function space.
-  V = fem.FunctionSpace(domain, ("P", 1))
+  V = fem.functionSpace(domain, ("P", 1))
 
   # Define Dirichlet Boundary Condition. 
   fdim = domain.topology.dim - 1
@@ -592,7 +592,7 @@ if args.envId=='NonLinearPDEEnv-v0':
   domain = mesh.create_interval(MPI.COMM_WORLD, nx, Omega)
 
   # Define test function space.
-  V = fem.FunctionSpace(domain, ("P", 1))
+  V = fem.functionSpace(domain, ("P", 1))
 
   # Create initial condition for the state function and interpolate it in V.
 

@@ -1,7 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
     <entry key="node_file" type="xstring" value="settings.xml"/>
-    <config key="flow_stack"/>
+    <config key="flow_stack">
+        <config key="Variable_0">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="fem-matrices-matlab-folder-path_location"/>
+            <entry key="class" type="xstring" value="FSLocation"/>
+            <entry key="location_present" type="xboolean" value="true"/>
+            <entry key="file_system_type" type="xstring" value="CONNECTED"/>
+            <entry key="file_system_specifier" type="xstring" value="local"/>
+            <entry key="path" type="xstring" value="C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ\matlab\fem_matrices"/>
+        </config>
+        <config key="Variable_1">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="ricatti-solution-matrices-matlab-folder-path_location"/>
+            <entry key="class" type="xstring" value="FSLocation"/>
+            <entry key="location_present" type="xboolean" value="true"/>
+            <entry key="file_system_type" type="xstring" value="CONNECTED"/>
+            <entry key="file_system_specifier" type="xstring" value="local"/>
+            <entry key="path" type="xstring" value="C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ\matlab\riccati_solution_matrices"/>
+        </config>
+        <config key="Variable_2">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="ricatti-solution-matrices-python-matlab-folder-path_location"/>
+            <entry key="class" type="xstring" value="FSLocation"/>
+            <entry key="location_present" type="xboolean" value="true"/>
+            <entry key="file_system_type" type="xstring" value="CONNECTED"/>
+            <entry key="file_system_specifier" type="xstring" value="local"/>
+            <entry key="path" type="xstring" value="C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ\matlab\riccati_solution_matrices_python"/>
+        </config>
+        <config key="Variable_3">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="hf5files-folder-path_location"/>
+            <entry key="class" type="xstring" value="FSLocation"/>
+            <entry key="location_present" type="xboolean" value="true"/>
+            <entry key="file_system_type" type="xstring" value="CONNECTED"/>
+            <entry key="file_system_specifier" type="xstring" value="local"/>
+            <entry key="path" type="xstring" value="C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ\matlab\h5files"/>
+        </config>
+        <config key="Variable_4">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="file-separator_location"/>
+            <entry key="class" type="xstring" value="FSLocation"/>
+            <entry key="location_present" type="xboolean" value="true"/>
+            <entry key="file_system_type" type="xstring" value="CONNECTED"/>
+            <entry key="file_system_specifier" type="xstring" value="local"/>
+            <entry key="path" type="xstring" value="\"/>
+        </config>
+        <config key="Variable_5">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="mainProjectDirectoryLOCAL_location_location"/>
+            <entry key="class" type="xstring" value="FSLocation"/>
+            <entry key="location_present" type="xboolean" value="true"/>
+            <entry key="file_system_type" type="xstring" value="CONNECTED"/>
+            <entry key="file_system_specifier" type="xstring" value="local"/>
+            <entry key="path" type="xstring" value="C:\Users\mgohm\Documents\Studium_Mathematik_TUF\Masterarbeit\HJQ"/>
+        </config>
+        <config key="Variable_6">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Environment name default_location"/>
+            <entry key="class" type="xstring" value="FSLocation"/>
+            <entry key="location_present" type="xboolean" value="true"/>
+            <entry key="file_system_type" type="xstring" value="CONNECTED"/>
+            <entry key="file_system_specifier" type="xstring" value="local"/>
+            <entry key="path" type="xstring" value="Linear1dPDEEnv-v0"/>
+        </config>
+        <config key="Variable_7">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="mainProjectDirectoryGDrive_location"/>
+            <entry key="class" type="xstring" value="FSLocation"/>
+            <entry key="location_present" type="xboolean" value="true"/>
+            <entry key="file_system_type" type="xstring" value="CONNECTED"/>
+            <entry key="file_system_specifier" type="xstring" value="local"/>
+            <entry key="path" type="xstring" value="\My Drive\Github\HJDQN"/>
+        </config>
+    </config>
     <config key="internal_node_subsettings">
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
@@ -72,7 +145,7 @@
         <config key="styles"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.filehandling.utility.nodes.stringtopath.variable.StringToPathVariableNodeFactory"/>
     <entry key="node-name" type="xstring" value="String to Path (Variable)"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Filehandling Nodes"/>
@@ -94,16 +167,21 @@
         <config key="Appended variables"/>
     </config>
     <entry key="name" type="xstring" value="String to Path (Variable)"/>
-    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Variables connection"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="5d921460-4c34-482a-82aa-231822e7a27d"/>
     </config>
 </config>

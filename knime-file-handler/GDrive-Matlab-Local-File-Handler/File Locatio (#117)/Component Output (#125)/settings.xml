@@ -73,7 +73,7 @@
         <config key="styles"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="isDeletable" type="xboolean" value="false"/>
     <entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory"/>
     <entry key="node-name" type="xstring" value="Component Output"/>
@@ -130,11 +130,75 @@
         </config>
     </config>
     <entry key="name" type="xstring" value="Component Output"/>
-    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports"/>
+    <config key="internalObjects">
+        <entry key="location" type="xstring" value="internalTables"/>
+        <config key="content">
+            <config key="object_0">
+                <entry key="index" type="xint" value="0"/>
+                <entry key="type" type="xstring" value="non-table"/>
+                <entry key="port_dir_location" type="xstring" value="object_0"/>
+                <entry key="port_spec_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObjectSpec"/>
+                <entry key="port_object_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObject"/>
+                <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+                <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            </config>
+            <config key="object_1">
+                <entry key="index" type="xint" value="1"/>
+                <entry key="type" type="xstring" value="non-table"/>
+                <entry key="port_dir_location" type="xstring" value="object_1"/>
+                <entry key="port_spec_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObjectSpec"/>
+                <entry key="port_object_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObject"/>
+                <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+                <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            </config>
+            <config key="object_2">
+                <entry key="index" type="xint" value="2"/>
+                <entry key="type" type="xstring" value="non-table"/>
+                <entry key="port_dir_location" type="xstring" value="object_2"/>
+                <entry key="port_spec_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObjectSpec"/>
+                <entry key="port_object_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObject"/>
+                <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+                <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            </config>
+            <config key="object_3">
+                <entry key="index" type="xint" value="3"/>
+                <entry key="type" type="xstring" value="non-table"/>
+                <entry key="port_dir_location" type="xstring" value="object_3"/>
+                <entry key="port_spec_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObjectSpec"/>
+                <entry key="port_object_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObject"/>
+                <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+                <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            </config>
+            <config key="object_4">
+                <entry key="index" type="xint" value="4"/>
+                <entry key="type" type="xstring" value="non-table"/>
+                <entry key="port_dir_location" type="xstring" value="object_4"/>
+                <entry key="port_spec_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObjectSpec"/>
+                <entry key="port_object_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObject"/>
+                <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+                <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            </config>
+            <config key="object_5">
+                <entry key="index" type="xint" value="5"/>
+                <entry key="type" type="xstring" value="non-table"/>
+                <entry key="port_dir_location" type="xstring" value="object_5"/>
+                <entry key="port_spec_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObjectSpec"/>
+                <entry key="port_object_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObject"/>
+                <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+                <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            </config>
+            <config key="object_6">
+                <entry key="index" type="xint" value="6"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_6"/>
+            </config>
+        </config>
+    </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="5a742c11-4fe3-4365-a7a3-88e96bc7aa97"/>
     </config>
 </config>

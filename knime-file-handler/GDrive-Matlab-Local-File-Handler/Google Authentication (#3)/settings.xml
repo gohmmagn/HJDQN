@@ -19,7 +19,7 @@
             </config>
             <entry key="allScopes" type="xboolean" value="true"/>
             <entry key="isAuthenticated" type="xboolean" value="true"/>
-            <entry key="accessTokenHash" type="xint" value="-947517150"/>
+            <entry key="accessTokenHash" type="xint" value="1848173432"/>
         </config>
         <config key="credentialLocation_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
@@ -53,11 +53,7 @@
         <config key="styles"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="IDLE"/>
-    <config key="nodecontainer_message">
-        <entry key="type" type="xstring" value="WARNING"/>
-        <entry key="message" type="xstring" value="Credentials changed. Please authenticate using the node dialog."/>
-    </config>
+    <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.google.api.nodes.authconnector.GoogleAuthNodeFactory"/>
     <entry key="node-name" type="xstring" value="Google Authenticator"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Google API Nodes"/>
@@ -70,16 +66,21 @@
     <entry key="node-feature-version" type="xstring" value="5.1.0.v202307071418"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Google Authenticator"/>
-    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.google.api.data.GoogleApiConnectionPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.google.api.data.GoogleApiConnectionPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Google OAuth 2.0 Authentication %%00010%%00010Authentication Keys: Memory (authentication key kept in memory)%%00010%%00010Scopes:%%00010https://www.googleapis.com/auth/analytics.readonly%%00010https://www.googleapis.com/auth/spreadsheets.readonly%%00010https://www.googleapis.com/auth/drive.readonly%%00010https://www.googleapis.com/auth/spreadsheets%%00010https://www.googleapis.com/auth/drive.readonly%%00010https://www.googleapis.com/auth/drive.readonly%%00010https://www.googleapis.com/auth/drive%%00010"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="193ef0b9-014e-4e8d-9ec7-affcdb106623"/>
     </config>
 </config>

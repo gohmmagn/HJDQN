@@ -5,185 +5,185 @@
         "nodes": [
             {
                 "id": "org.knime.google.api.nodes.authconnector.GoogleAuthNodeFactory#Google Authenticator",
-                "nrexecs": 16,
+                "nrexecs": 18,
                 "nrfails": 0,
-                "exectime": 52,
+                "exectime": 60,
                 "nrcreated": 0,
                 "successor": "org.knime.ext.google.filehandling.drive.node.GoogleDriveConnectionNodeFactory#Google Drive Connector"
             },
             {
                 "id": "org.knime.filehandling.core.fs.local.node.LocalConnectorNodeFactory#Local File System Connector",
-                "nrexecs": 102,
+                "nrexecs": 112,
                 "nrfails": 0,
-                "exectime": 1486,
+                "exectime": 1492,
                 "nrcreated": 2,
                 "successor": "org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory#Component Output"
             },
             {
                 "id": "org.knime.ext.google.filehandling.drive.node.GoogleDriveConnectionNodeFactory#Google Drive Connector",
-                "nrexecs": 20,
+                "nrexecs": 22,
                 "nrfails": 0,
-                "exectime": 18471,
+                "exectime": 20800,
                 "nrcreated": 1,
                 "successor": "org.knime.filehandling.utility.nodes.stringtopath.variable.StringToPathVariableNodeFactory#String to Path (Variable)"
             },
             {
                 "id": "org.knime.filehandling.utility.nodes.listpaths.ListFilesAndFoldersNodeFactory#List Files/Folders",
-                "nrexecs": 380,
+                "nrexecs": 530,
                 "nrfails": 5,
-                "exectime": 1587458,
+                "exectime": 1762603,
                 "nrcreated": 5,
                 "successor": "org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory#String Manipulation"
             },
             {
                 "id": "org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory#String Manipulation",
-                "nrexecs": 178,
+                "nrexecs": 511,
                 "nrfails": 0,
-                "exectime": 861,
+                "exectime": 1363,
                 "nrcreated": 3,
                 "successor": "org.knime.base.node.preproc.filter.rowref.RowFilterRefNodeFactory#Reference Row Filter"
             },
             {
                 "id": "org.knime.base.node.preproc.rename.RenameNodeFactory#Column Rename (deprecated)",
-                "nrexecs": 33,
+                "nrexecs": 84,
                 "nrfails": 0,
-                "exectime": 25,
+                "exectime": 36,
                 "nrcreated": 0,
                 "successor": "n/a"
             },
             {
                 "id": "org.knime.base.node.flowvariable.tablerowtovariable3.TableToVariable3NodeFactory#Table Row To Variable",
-                "nrexecs": 402,
+                "nrexecs": 481,
                 "nrfails": 0,
-                "exectime": 324,
+                "exectime": 355,
                 "nrcreated": 3,
                 "successor": "org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeFactory#CASE Switch Start"
             },
             {
                 "id": "org.knime.base.node.preproc.groupby.GroupByNodeFactory#GroupBy",
-                "nrexecs": 22,
+                "nrexecs": 24,
                 "nrfails": 0,
-                "exectime": 206,
+                "exectime": 232,
                 "nrcreated": 0,
                 "successor": "n/a"
             },
             {
                 "id": "org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory#Component Input",
-                "nrexecs": 72,
+                "nrexecs": 146,
                 "nrfails": 0,
-                "exectime": 82,
+                "exectime": 123,
                 "nrcreated": 0,
                 "successor": "org.knime.filehandling.utility.nodes.transfer.table.TransferFilesTableNodeFactory#Transfer Files (Table)"
             },
             {
                 "id": "org.knime.base.node.io.extractsysprop.ReadSysPropertyNodeFactory#Extract System Properties",
-                "nrexecs": 25,
+                "nrexecs": 49,
                 "nrfails": 0,
-                "exectime": 52,
+                "exectime": 79,
                 "nrcreated": 1,
                 "successor": "org.knime.base.node.flowvariable.tablerowtovariable3.TableToVariable3NodeFactory#Table Row To Variable"
             },
             {
                 "id": "org.knime.filehandling.utility.nodes.stringtopath.variable.StringToPathVariableNodeFactory#String to Path (Variable)",
-                "nrexecs": 339,
+                "nrexecs": 503,
                 "nrfails": 0,
-                "exectime": 635,
+                "exectime": 878,
                 "nrcreated": 6,
                 "successor": "org.knime.base.node.flowvariable.variabletotablerow4.VariableToTable4NodeFactory#Variable To Table Row"
             },
             {
                 "id": "org.knime.filehandling.utility.nodes.pathtostring.PathToStringNodeFactory#Path to String",
-                "nrexecs": 22,
+                "nrexecs": 147,
                 "nrfails": 0,
-                "exectime": 37,
+                "exectime": 201,
                 "nrcreated": 0,
                 "successor": "n/a"
             },
             {
                 "id": "org.knime.base.node.flowcontrol.breakpoint.BreakpointNodeFactory#Breakpoint",
-                "nrexecs": 5,
+                "nrexecs": 32,
                 "nrfails": 0,
-                "exectime": 12,
+                "exectime": 14,
                 "nrcreated": 0,
                 "successor": "n/a"
             },
             {
                 "id": "org.knime.base.node.util.extracttabledimension.ExtractTableDimensionNodeFactory#Extract Table Dimension",
-                "nrexecs": 5,
+                "nrexecs": 32,
                 "nrfails": 0,
-                "exectime": 10,
+                "exectime": 39,
                 "nrcreated": 0,
                 "successor": "n/a"
             },
             {
                 "id": "org.knime.base.node.rules.engine.RuleEngineVariableNodeFactory#Rule Engine Variable",
-                "nrexecs": 32,
+                "nrexecs": 59,
                 "nrfails": 0,
-                "exectime": 8,
+                "exectime": 22,
                 "nrcreated": 2,
                 "successor": "org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeFactory#CASE Switch Start"
             },
             {
                 "id": "org.knime.base.node.switches.caseswitch.any.CaseStartAnyNodeFactory#CASE Switch Start",
-                "nrexecs": 294,
+                "nrexecs": 321,
                 "nrfails": 0,
-                "exectime": 140,
+                "exectime": 142,
                 "nrcreated": 1,
                 "successor": "org.knime.filehandling.utility.nodes.listpaths.ListFilesAndFoldersNodeFactory#List Files/Folders"
             },
             {
                 "id": "org.knime.base.node.preproc.filter.rowref.RowFilterRefNodeFactory#Reference Row Filter",
-                "nrexecs": 44,
+                "nrexecs": 120,
                 "nrfails": 0,
-                "exectime": 103,
+                "exectime": 176,
                 "nrcreated": 1,
                 "successor": "org.knime.base.node.switches.caseswitch.any.CaseEndAnyNodeFactory#CASE Switch End"
             },
             {
                 "id": "org.knime.base.node.switches.caseswitch.any.CaseEndAnyNodeFactory#CASE Switch End",
-                "nrexecs": 294,
+                "nrexecs": 321,
                 "nrfails": 0,
-                "exectime": 141,
+                "exectime": 149,
                 "nrcreated": 2,
                 "successor": "org.knime.filehandling.utility.nodes.transfer.table.TransferFilesTableNodeFactory#Transfer Files (Table)"
             },
             {
                 "id": "org.knime.filehandling.utility.nodes.stringtopath.StringToPathNodeFactory#String to Path",
-                "nrexecs": 14,
+                "nrexecs": 63,
                 "nrfails": 0,
-                "exectime": 51,
+                "exectime": 294,
                 "nrcreated": 1,
                 "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter"
             },
             {
                 "id": "org.knime.filehandling.utility.nodes.transfer.table.TransferFilesTableNodeFactory#Transfer Files (Table)",
-                "nrexecs": 32,
+                "nrexecs": 124,
                 "nrfails": 5,
-                "exectime": 8225137,
+                "exectime": 9641700,
                 "nrcreated": 1,
                 "successor": "n/a"
             },
             {
                 "id": "de.mpicbg.knime.scripting.matlab.open.OpenInMatlabNodeFactory#Open in Matlab",
-                "nrexecs": 4,
-                "nrfails": 0,
-                "exectime": 44731,
+                "nrexecs": 30,
+                "nrfails": 1,
+                "exectime": 204505,
                 "nrcreated": 0,
                 "successor": "n/a"
             },
             {
                 "id": "org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory#Component Output",
-                "nrexecs": 66,
+                "nrexecs": 140,
                 "nrfails": 2,
-                "exectime": 5579428,
+                "exectime": 5579485,
                 "nrcreated": 0,
                 "successor": "n/a"
             },
             {
                 "id": "org.knime.base.node.preproc.stringmanipulation.variable.StringManipulationVariableNodeFactory#String Manipulation (Variable)",
-                "nrexecs": 401,
+                "nrexecs": 532,
                 "nrfails": 0,
-                "exectime": 233,
+                "exectime": 325,
                 "nrcreated": 10,
                 "successor": "org.knime.filehandling.utility.nodes.stringtopath.variable.StringToPathVariableNodeFactory#String to Path (Variable)"
             },
@@ -197,65 +197,65 @@
             },
             {
                 "id": "org.knime.filehandling.utility.nodes.pathtostring.variable.PathToStringVariableNodeFactory#Path to String (Variable)",
-                "nrexecs": 281,
+                "nrexecs": 283,
                 "nrfails": 0,
-                "exectime": 111,
+                "exectime": 112,
                 "nrcreated": 2,
                 "successor": "org.knime.base.node.preproc.stringmanipulation.variable.StringManipulationVariableNodeFactory#String Manipulation (Variable)"
             },
             {
                 "id": "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory#Column Renamer",
-                "nrexecs": 19,
+                "nrexecs": 21,
                 "nrfails": 0,
-                "exectime": 415,
+                "exectime": 484,
                 "nrcreated": 1,
                 "successor": "n/a"
             },
             {
                 "id": "org.knime.base.node.util.mergevariables.MergeVariables2NodeFactory#Merge Variables",
-                "nrexecs": 6,
+                "nrexecs": 55,
                 "nrfails": 0,
-                "exectime": 1,
+                "exectime": 14,
                 "nrcreated": 2,
                 "successor": "org.knime.filehandling.utility.nodes.stringtopath.variable.StringToPathVariableNodeFactory#String to Path (Variable)"
             },
             {
                 "id": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter",
-                "nrexecs": 284,
+                "nrexecs": 327,
                 "nrfails": 0,
-                "exectime": 274,
+                "exectime": 328,
                 "nrcreated": 0,
                 "successor": "n/a"
             },
             {
                 "id": "org.knime.base.node.preproc.filter.row.RowFilter2PortNodeFactory#Row Splitter",
-                "nrexecs": 3,
+                "nrexecs": 25,
                 "nrfails": 0,
-                "exectime": 3,
+                "exectime": 40,
                 "nrcreated": 0,
                 "successor": "n/a"
             },
             {
                 "id": "org.knime.filehandling.utility.nodes.transfer.filechooser.TransferFilesFileChooserNodeFactory#Transfer Files",
-                "nrexecs": 4,
+                "nrexecs": 26,
                 "nrfails": 0,
-                "exectime": 21,
+                "exectime": 145,
                 "nrcreated": 0,
                 "successor": "n/a"
             },
             {
                 "id": "org.knime.python3.scripting.nodes.script.PythonScriptNodeFactory#Python Script",
-                "nrexecs": 4,
+                "nrexecs": 26,
                 "nrfails": 0,
-                "exectime": 4449,
+                "exectime": 52890,
                 "nrcreated": 0,
                 "successor": "n/a"
             },
             {
                 "id": "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory#Concatenate",
-                "nrexecs": 4,
+                "nrexecs": 26,
                 "nrfails": 0,
-                "exectime": 4,
+                "exectime": 14,
                 "nrcreated": 0,
                 "successor": "n/a"
             },
@@ -331,17 +331,17 @@
             "nrcreated": 0
         },
         "wrappedNodes": {
-            "nrexecs": 52,
-            "nrfails": 7,
-            "exectime": 5937102,
+            "nrexecs": 125,
+            "nrfails": 8,
+            "exectime": 7648286,
             "nrcreated": 0
         },
         "createdVia": {
             "JAVA_UI": 50
         }
     },
-    "uptime": 1731488,
-    "workflowsOpened": 19,
+    "uptime": 3379097,
+    "workflowsOpened": 21,
     "remoteWorkflowsOpened": 0,
     "columnarStorageWorkflowsOpened": 0,
     "workflowsImported": 0,
@@ -349,9 +349,9 @@
     "webUIPerspectiveSwitches": 0,
     "javaUIPerspectiveSwitches": 0,
     "lastUsedPerspective": "none (classic)",
-    "launches": 49,
+    "launches": 51,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 6716807,
+    "timeSinceLastStart": 40061360,
     "crashes": 0,
     "properlyShutDown": true
 }

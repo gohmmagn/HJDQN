@@ -43,7 +43,7 @@
         <config key="styles"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="de.mpicbg.knime.scripting.matlab.open.OpenInMatlabNodeFactory"/>
     <entry key="node-name" type="xstring" value="Open in Matlab"/>
     <entry key="node-bundle-name" type="xstring" value="MatlabSnippet-Node extension for KNIME Workbench"/>
@@ -56,11 +56,11 @@
     <entry key="node-feature-version" type="xstring" value="5.0.0.v202307040737"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Open in Matlab"/>
-    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports"/>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="b9538ad8-84df-4618-a463-f752eba30443"/>
     </config>
 </config>

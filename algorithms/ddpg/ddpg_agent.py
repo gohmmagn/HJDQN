@@ -49,9 +49,9 @@ class DDPGAgent:
         # pi : actor network, Q : critic network
         self.pi = Actor(dimS, dimA, hidden1, hidden2, ctrl_range).to(device)
         if model=='Critic_NN1':
-          self.Q = Critic_NN1(dimS, dimA, acctuator).to(device)
+          self.Q = Critic_NN1(dimS, dimA, acctuator, device).to(device)
         if model=='Critic_NN2':
-          self.Q = Critic_NN2(dimS, dimA, acctuator, resortIndex).to(device)
+          self.Q = Critic_NN2(dimS, dimA, acctuator, resortIndex, device).to(device)
 
         # target networks
         self.target_pi = copy.deepcopy(self.pi).to(device)

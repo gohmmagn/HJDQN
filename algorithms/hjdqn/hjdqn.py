@@ -83,6 +83,10 @@ def run_hjdqn(env_id,
     print('-' * 80)
     print('observation dim : {} / action dim : {}'.format(dimS, dimA))
     print('dt : {}'.format(h))
+    print('L : {}'.format(L))
+    print('tau : {}'.format(polyak))
+    print('lr : {}'.format(lr))
+    print('sigma : {}'.format(sigma))
     print('control range : {}'.format(ctrl_range))
     print('-' * 80)
 
@@ -276,7 +280,7 @@ def run_hjdqn(env_id,
     step_count = 0
     ep_reward = 0.
 
-    action = env.action_space.sample()
+    action = env.unwrapped.action_space.sample()
 
     # Log file number
     k = 1
@@ -287,7 +291,7 @@ def run_hjdqn(env_id,
         # t : number of env-agent interactions (=number of transition samples observed)
         if t < fill_buffer:
             # first collect sufficient number of samples during the initial stage
-            action = env.action_space.sample()
+            action = env.unwrapped.action_space.sample()
         else:
             action = agent.get_action(state, action, noise)
             noise = noise_process.sample()
@@ -312,7 +316,7 @@ def run_hjdqn(env_id,
             # restart an episode
             state, _ = env.reset()
             noise = noise_process.reset()
-            action = env.action_space.sample()
+            action = env.unwrapped.action_space.sample()
             step_count = 0
             ep_reward = 0.
 

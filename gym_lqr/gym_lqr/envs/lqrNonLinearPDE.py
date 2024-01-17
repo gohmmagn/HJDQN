@@ -179,13 +179,13 @@ class NonLinearPDEEnv(gym.Env):
         # Random sampling from the action space : $U[a, b)$.
         
         self.action_space = spaces.Box(
-            low=-1000.0,
-            high=1000.0, shape=(self.m,),
+            low=-1.0,
+            high=1.0, shape=(self.m,),
             dtype=np.float64
         )
         self.observation_space = spaces.Box(
-            low=-1000.0,
-            high=1000.0, shape=(self.n,),
+            low=-np.inf,
+            high=np.inf, shape=(self.n,),
             dtype=np.float64
         )
 

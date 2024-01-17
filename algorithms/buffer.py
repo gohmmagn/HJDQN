@@ -28,8 +28,9 @@ class ReplayBuffer:
 
     def sample_batch(self, batch_size):
         # uniformly sample transition data from the buffer
-        rng = np.random.default_rng()
-        idxs = rng.choice(self.size, batch_size)    # sample indices
+        #rng = np.random.default_rng()
+        #idxs = rng.choice(self.size, batch_size) #sample indices
+        idxs = np.arange(batch_size)
 
         # get batch from each buffer
         state_batch = self.states.get_batch(idxs)

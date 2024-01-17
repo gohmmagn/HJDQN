@@ -6,7 +6,7 @@ from torch.nn import MSELoss
 import gymnasium as gym
 from algorithms.utils import freeze
 from algorithms.buffer import ReplayBuffer
-from algorithms.model import Critic_NN1, Critic_NN2
+from algorithms.model import Critic_NN1, Critic_NN2, Critic_Orig
 
 class HJDQNAgent:
     def __init__(self,
@@ -44,9 +44,11 @@ class HJDQNAgent:
         self.h = h
 
         if model=='Critic_NN1':
-          self.Q = Critic_NN1(dimS, dimA, acctuator).to(device)
+          self.Q = Critic_NN1(dimS, dimA, acctuator, device).to(device)
         if model=='Critic_NN2':
-          self.Q = Critic_NN2(dimS, dimA, acctuator, resortIndex).to(device)
+          self.Q = Critic_NN2(dimS, dimA, acctuator, resortIndex, device).to(device)
+        if model=='Critic_Orig':
+          self.Q = Critic_Orig(dimS, dimA, acctuator, device).to(device)
 
         self.target_Q = copy.deepcopy(self.Q).to(device)    # set target network
 
@@ -214,8 +216,8 @@ class HJDQNAgent:
                 ep_reward += reward
 
                 if test_env.unwrapped.useExactSolution:
-                   exact_action = test_env.get_exact_action(exact_state) # exact action
-                   next_exact_state, exact_reward, _, _, _ = test_env.exact_step(exact_action)
+                   exact_action = test_env.unwrapped.get_exact_action(exact_state) # exact action
+                   next_exact_state, exact_reward, _, _, _ = test_env.unwrapped.exact_step(exact_action)
                    exact_state = next_exact_state
                    exact_ep_reward += exact_reward
 
@@ -236,7 +238,7 @@ class HJDQNAgent:
            exact_avg = 0.
 
         if self.verbose:
-          print('step {} : avg: {} ; exact_avg: {}'.format(t, avg, exact_avg))
+           print('step {} : avg: {} ; exact_avg: {}'.format(t, avg, exact_avg))
 
         return [t, avg, exact_avg]
 

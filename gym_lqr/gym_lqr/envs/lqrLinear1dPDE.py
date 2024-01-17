@@ -97,35 +97,35 @@ class Linear1dPDEEnv(gym.Env):
         # PDE coefficients
         self.nu = 0.01
 
-        #class PDE_a():
+        class PDE_a():
 
-        #  def __init__(self):
-        #      pass
+          def __init__(self):
+              pass
 
-        #  def __call__(self,x):
-        #      values = np.zeros(x.shape,dtype=PETSc.ScalarType)
-        #      values = np.ones(x[0].shape)
-        #      return values
+          def __call__(self,x):
+              values = np.zeros(x.shape,dtype=PETSc.ScalarType)
+              values = np.sin(x[0]) #np.ones(x[0].shape), np.sin(x[0])
+              return values
 
-        #class PDE_b():
+        class PDE_b():
 
-        #  def __init__(self):
-        #      pass
+          def __init__(self):
+              pass
 
-        #  def __call__(self,x):
-        #      values = np.zeros(x.shape,dtype=PETSc.ScalarType)
-        #      values = np.ones(x[0].shape)
-        #      return values
+          def __call__(self,x):
+              values = np.zeros(x.shape,dtype=PETSc.ScalarType)
+              values = -x[0] #np.ones(x[0].shape), -x[0]
+              return values
 
-        #self.a_V = fem.Function(self.V)
-        #self.a_V.interpolate(PDE_a())
+        self.a_V = fem.Function(self.V)
+        self.a_V.interpolate(PDE_a())
 
-        #b_V1 = fem.Function(self.V)
-        #b_V1.interpolate(PDE_b())
-        #self.b_V = ufl.as_vector([b_V1])
+        b_V1 = fem.Function(self.V)
+        b_V1.interpolate(PDE_b())
+        self.b_V = ufl.as_vector([b_V1])
 
-        self.a_V = 1.0
-        self.b_V = ufl.as_vector([1.0])
+        #self.a_V = 1.0
+        #self.b_V = ufl.as_vector([1.0])
 
         # Indicator function for 1d PDE also called acctuator functions.
         w1 = np.array([-0.7,-0.4])
@@ -271,7 +271,7 @@ class Linear1dPDEEnv(gym.Env):
            conti_gamma = (1 - gamma) / self.dt
 
            # Solve discounted generalized CARE.
-           Ad = self.A - (conti_gamma / 2.) * np.eye(self.n_wb)
+           Ad = self.A - (conti_gamma / 2.) * self.M_wb
            X, L, K = control.care(Ad, self.B, self.Q_wb, self.R, np.zeros((self.n_wb, self.m)), self.M_wb)
            self.K = np.asarray(K)
 
@@ -285,13 +285,13 @@ class Linear1dPDEEnv(gym.Env):
 
         # Random sampling from the action space : $U[-1, 1)$.
         self.action_space = spaces.Box(
-            low=-1000.0,
-            high=1000.0, shape=(self.m,),
+            low=-np.inf,
+            high=np.inf, shape=(self.m,),
             dtype=np.float64
         )
         self.observation_space = spaces.Box(
-            low=-1000.0,
-            high=1000.0, shape=(self.n,),
+            low=-np.inf,
+            high=np.inf, shape=(self.n,),
             dtype=np.float64
         )
 
@@ -368,24 +368,13 @@ class Linear1dPDEEnv(gym.Env):
     def reset(self, seed=None, options={}):
         super().reset(seed=seed)
 
-        self.y_0 = fem.Function(self.V)
-        self.y_0.name = "y_0"
         self.y_0.interpolate(self.initial_condition)
-
-        self.y_n = fem.Function(self.V)
-        self.y_n.name = "y_n"
         self.y_n.interpolate(self.initial_condition)
-
-        self.y_0_exact = fem.Function(self.V)
-        self.y_0_exact.name = "y_0"
         self.y_0_exact.interpolate(self.initial_condition)
-
-        self.y_n_exact = fem.Function(self.V)
-        self.y_n_exact.name = "y_n"
         self.y_n_exact.interpolate(self.initial_condition)
 
         self.x = self.y_0.x.array
-        self.exact_x = self.x
+        self.exact_x = self.y_0_exact.x.array
 
         return np.copy(self.x), {}
 

@@ -29,7 +29,7 @@ for i = 1:size(paths,1)
         alpha = num2str(fem_matrices.alpha);
         beta = num2str(fem_matrices.beta);
     
-        [X,K,L,info] = icare(Ad,B,Q,R,S,M);
+        [X,K,L,info] = icare(Ad,B,Q,R,[],M,[]);
     
         if info.Report == 0
     

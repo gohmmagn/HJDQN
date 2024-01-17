@@ -1,4 +1,3 @@
-#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
 from algorithms.hjdqn.hjdqn import run_hjdqn
 from algorithms.ddpg.ddpg import run_ddpg
 
@@ -50,15 +49,15 @@ args = parser.parse_args()
 
 # HJDQN hyperparameter.
 
-L = [5, 10, 15, 20]
-tau = [1e-3]#, 1e-6]
+L = [5, 10, 15]
+tau = [1e-3, 1e-6]
 lr = [1e-2, 1e-4]
-sigma = [0.1, 1, 5]#, 10]
+sigma = [0.1, 1]
 actor_lr = [1e-4, 1e-5] #[1e-3, 1e-4, 1e-5]
 critic_lr = [1e-3, 1e-4] #[1e-2, 1e-3, 1e-4]
 
 hyper_pars_ddpg = []
-hyper_pars_hjdqn = []
+hyper_pars_hjdqn = []#[[10, 1e-6, 1e-2, 0.1]]
 
 for actor_lri in actor_lr:
   for critic_lri in critic_lr:
@@ -71,7 +70,7 @@ for Li in L:
     for lri in lr:
       for sigmai in sigma:
           hyper_pars_hjdqn.append([Li, taui, lri, sigmai])
-          
+         
 del hyper_pars_hjdqn[:args.loopStart]
 del hyper_pars_ddpg[:args.loopStart]
 
